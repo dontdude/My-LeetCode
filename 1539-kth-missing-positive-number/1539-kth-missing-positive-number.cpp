@@ -1,22 +1,19 @@
 class Solution {
 public:
-    int binarySearch(vector<int>& arr, int x){
-        int l = 0, r = arr.size()-1;
-        while(l <= r){
-            int m = l + (r - l) / 2;
-            if(arr[m] == x)  return m;
-            else if(arr[m] < x)  l = m + 1;
-            else r = m - 1;
-        }
-        return -1;
-    }
-
     int findKthPositive(vector<int>& arr, int k) {
-        int i = 1;
-        while(k != 0){
-            if(binarySearch(arr, i) == -1)   k--;
-            i++;
+        // Two Concepts : 
+        // 1. the number of missing under A[m] is A[m] - 1 - m.
+        // 2. For this return l + k;, it can be explained in this way:
+        // Now, l is the first index that gives at least k missing numbers. It may have more missing numbers than we need, so we are actually interested in index l - 1.
+        // At index l - 1, we have A[l-1] - (l-1) - 1 missing numbers
+        // so after index l - 1 , we need to find k - (A[l-1] - (l-1) - 1) missing numbers, i.e. k - A[l-1] + l missing numbers
+        // At index l - 1, our number is A[l-1]. Add them up, the target number will be A[l-1] + k - A[l-1] + l, i.e. k + l;
+        int l = 0, r = arr.size();
+        while(l < r){
+            int m = l + (r - l) / 2;
+            if(arr[m] - 1 - m < k)  l = m + 1;
+            else r = m;
         }
-        return i-1;
+        return l + k;
     }
 };
