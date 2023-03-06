@@ -15,23 +15,12 @@ public:
                 if(board[i][j] == '.')  goto emptyCellFound;
             }
         }
-        if(i == 9 && j == 9)   return true;
+        return true;
 
         emptyCellFound : 
+        
         vector<bool> validNumbers(10, true);    // validNumbers[i] = true, if i can be valid entry for current empty cell
-        int rs = i - i % 3;
-        int cs = j - j % 3;                    // Starting indexes of the subgrid of size 3, in which empty cell is present
-        
-        for(int k = 0; k < 9; k++){            // checking row and columns of empty cell
-        
-           if(board[i][k] != '.')  validNumbers[board[i][k] - '0'] = false;
-           if(board[k][j] != '.')  validNumbers[board[k][j] - '0'] = false;
-        }
-        for(int x = 0; x < 3; x++){           // checking subgrid of empty cell
-            for(int y = 0; y < 3; y++){
-                if(board[x + rs][y + cs] != '.')  validNumbers[board[x + rs][y + cs] - '0'] = false;
-            }
-        }
+        checkValidNumbers(board, validNumbers, i, j);
 
         for(int k = 1; k <= 9; k++){
             if(validNumbers[k]){
@@ -42,5 +31,20 @@ public:
         }
         
         return false;
+    }
+
+    void checkValidNumbers(vector<vector<char>>& board, vector<bool>& validNumbers, int i, int j){
+        for(int k = 0; k < 9; k++){            // checking row and columns of empty cell
+            if(board[i][k] != '.')  validNumbers[board[i][k] - '0'] = false;
+            if(board[k][j] != '.')  validNumbers[board[k][j] - '0'] = false;
+        }
+
+        int rs = i - i % 3;                    // checking subgrid of empty cell
+        int cs = j - j % 3;                    // Starting indexes of the subgrid of size 3
+        for(int x = 0; x < 3; x++){           
+            for(int y = 0; y < 3; y++){
+                if(board[x + rs][y + cs] != '.')  validNumbers[board[x + rs][y + cs] - '0'] = false;
+            }
+        }
     }
 };
