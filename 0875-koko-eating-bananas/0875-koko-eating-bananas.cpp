@@ -9,7 +9,7 @@ public:
         return h >= reqh;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
-        int r = *max_element(piles.begin(), piles.end()), l = 1, res = r;
+        int r = 1e9, l = 1, res = r;
         while(l <= r){
             int m = l + (r - l) / 2;
             if(isSufficientSpeed(piles, h, m))    res = m,   r = m - 1;
