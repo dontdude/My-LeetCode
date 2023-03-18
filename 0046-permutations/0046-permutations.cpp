@@ -6,15 +6,13 @@ public:
         return res;
     }
     void backtrack(int x, vector<int>& nums){
-        if(x == nums.size() - 1){
-            res.push_back(nums);
-            return;
-        }
-
+        res.push_back(nums);
         for(int i = x; i < nums.size(); i++){
-            swap(nums[x], nums[i]);
-            backtrack(x + 1, nums);
-            swap(nums[x], nums[i]);
+            for(int j = i + 1; j < nums.size(); j++){
+                swap(nums[i], nums[j]);
+                backtrack(i+1, nums);
+                swap(nums[i], nums[j]);
+            }
         }
     }
 };
