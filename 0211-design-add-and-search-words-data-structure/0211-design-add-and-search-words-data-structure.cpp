@@ -1,47 +1,61 @@
 class TrieNode{
 public:
-    bool isCompleteWord;
-    TrieNode* children[26];
+    bool isWord;
+    TrieNode* childNode[26];
 
     TrieNode() {
-        isCompleteWord = false; 
-        memset(children, 0, sizeof(children)); 
+        isWord = false; 
+        memset(childNode, 0, sizeof(childNode)); 
     }
 };
 
 class WordDictionary {
 public:
+    int mxword;
     TrieNode* root;
     WordDictionary() {
         root = new TrieNode();
+        mxword = 0;
     }
     
     void addWord(string word) {
         TrieNode* node = root;
         for (char ch : word){
             int idx = ch - 'a';
-            if(node->children[idx]==NULL) node->children[idx] = new TrieNode();
-            node = node->children[idx];
+            if(node->childNode[idx]==NULL) node->childNode[idx] = new TrieNode();
+            node = node->childNode[idx];
         }
-        node->isCompleteWord = true;
+        node->isWord = true;
+        mxword = max(mxword, (int)word.size());
     }
     
     bool search(string word) {
-        return searchHelper(word, root);
-    }
+        if(word.size() > mxword)  return false;   // optimization
+        
+        stack<pair<TrieNode*, int>> st;     // Iterative DFS
+        st.push({root, 0});
 
-    bool searchHelper(string word, TrieNode* node){
-        for(int i=0;i<word.length();i++){
-            char ch = word[i];
-            if(ch == '.'){
-                for(auto c: node->children)
-                    if(c && searchHelper(word.substr(i+1), c)) return true;
-                return false;
+        while(!st.empty()){
+            auto call = st.top();  st.pop();
+            int ind = call.second;
+            TrieNode* curr = call.first;
+             
+            if(ind == word.size()) {
+                if(curr->isWord)  return true;
+                else continue;     
             }
-            int idx = ch - 'a';
-            if(node->children[idx]==NULL) return false;
-            node = node->children[idx];
+
+            if(word[ind] == '.'){         // for dot, moving to any child node which is not null
+                for(int i = 0; i < 26; i++){          
+                    if(curr->childNode[i])  st.push({curr->childNode[i], ind + 1});
+                }
+            }
+            else {
+                int i = word[ind] - 'a';
+                if(curr->childNode[i])  st.push({curr->childNode[i], ind + 1});
+            }
         }
-        return node->isCompleteWord;
+
+        return false;
     }
 };
