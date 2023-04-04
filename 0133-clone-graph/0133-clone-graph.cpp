@@ -30,17 +30,16 @@ public:
     }
 
     Node* cloner(Node* node, unordered_map<Node*, Node*>& vis){
-       Node* clone = new Node(node->val);
-       vector<Node*> neighbors = node->neighbors;
+       Node* clone = new Node(node->val, node->neighbors);
        vis.insert({node, clone});
 
        for(int i = 0; i < node->neighbors.size(); i++) {
           if(node->neighbors[i]){ 
-            if(vis.find(node->neighbors[i]) == vis.end())   neighbors[i] = cloner(node->neighbors[i], vis);
-            else neighbors[i] = vis[node->neighbors[i]];
+            if(vis.find(node->neighbors[i]) == vis.end())   clone->neighbors[i] = cloner(node->neighbors[i], vis);
+            else clone->neighbors[i] = vis[node->neighbors[i]];
           }
        }
-       clone->neighbors = neighbors;
+       
        return clone;
     }
 };
