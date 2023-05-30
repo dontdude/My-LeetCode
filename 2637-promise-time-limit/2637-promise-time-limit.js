@@ -4,22 +4,16 @@
  * @return {Function}
  */
 var timeLimit = function(fn, t) {
-    const endsInTimeT = new Promise((resolve, reject) => {    
+    const endsInTimeTPromise = new Promise((resolve, reject) => {    
         setTimeout(() => {
             reject("Time Limit Exceeded");
-        }, t+1);
+        }, t);
     });
     
 	return async function(...args) {
         // the promise.race takes a list of promise and returns a promise, so that it immeaditely stops and returns the result of the promise whose execution is finished first in given list
-        const racePromise = Promise.race([endsInTimeT, fn(...args)]);
-        return racePromise
-                .then((result) => { 
-                  return result;
-                })
-                .catch((error) => {   
-                   throw error;
-                });
+        const givenPromise = fn(...args);
+        return racePromise = Promise.race([endsInTimeTPromise, givenPromise]);
     }
 };
 
