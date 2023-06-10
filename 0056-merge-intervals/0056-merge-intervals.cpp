@@ -3,13 +3,19 @@ public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
 
-        for(int i = 1; i < intervals.size(); i++){
-            if(intervals[i-1][1] >= intervals[i][0]){
-                intervals[i-1][1] = max(intervals[i-1][1], intervals[i][1]);
-                intervals.erase(intervals.begin() + i);
-                i--;
+        int i = 0, j = 0;
+
+        while(i < intervals.size()){
+            int curStart = intervals[i][0], curEnd = intervals[i][1];
+            while(i+1 < intervals.size() && curEnd >= intervals[i+1][0]){
+                i++;
+                curEnd = max(curEnd, intervals[i][1]);
             }
+
+            intervals[j++] = {curStart, curEnd};
+            i++;
         }
+        intervals.resize(j);
 
         return intervals;
     }
