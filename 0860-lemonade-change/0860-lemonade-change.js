@@ -16,10 +16,10 @@ var lemonadeChange = function(bills) {
                return false;
             }
         } else {
-            if(five > 0 && ten > 0) {console.log(five, ten, "1")
+            if(five > 0 && ten > 0) {
                 five--;
                 ten--;
-            } else if(five > 2) {console.log(five, ten, "2")
+            } else if(five > 2) {
                 five -= 3;
             } else {
                 return false
