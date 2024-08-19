@@ -3,9 +3,10 @@
  * @return {number}
  */
 var minSteps = function(n) {
-    for(let i = 2; i <= Math.floor(Math.sqrt(n)); i++) {
+    let highestFactor = Math.floor(Math.sqrt(n));
+    for(let i = 2; i <= highestFactor; i++) {
         if(n % i === 0) {
-          return minSteps(n / i) + i;
+          return minSteps(n / i) + i;  
         }
     }
 
