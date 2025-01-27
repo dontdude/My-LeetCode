@@ -8,39 +8,24 @@ public:
     }
     
     void addNum(int num) {
-        int n = maxHeap.size(), m = minHeap.size();
-        if(n == m && n == 0) {
-           maxHeap.push(num);
-        } else if(n > m) {  // trying to push to right half
-            if(num < maxHeap.top()) {  // whether new element is greater than max of left half
-                minHeap.push(maxHeap.top());   // moving the current max of left half to right half
-                maxHeap.pop();
-                maxHeap.push(num);
-            } else {
-                minHeap.push(num);
-            }
+        // first care about pushing the elements
+        if(maxHeap.size() == minHeap.size()) {
+            maxHeap.push(num);
         } else {
-            if(num > minHeap.top()) {
-                maxHeap.push(minHeap.top());  
-                minHeap.pop();
-                minHeap.push(num);
-            } else {
-                maxHeap.push(num);
-            }
+            minHeap.push(num);
+        }
+
+        // now fix the top nodes, to make sure max of left <= min of right
+        if(!minHeap.empty() && maxHeap.top() > minHeap.top()) {
+            maxHeap.push(minHeap.top());  minHeap.pop();
+            minHeap.push(maxHeap.top());  maxHeap.pop();
         }
     }
     
     double findMedian() {
-        int n = maxHeap.size(), m = minHeap.size();
-        if(n == m && n == 0) {
-            return 0;
-        } else if(n == m) {
-            return (double)(maxHeap.top() + minHeap.top()) / 2;
-        } else if(n > m) {
-            return (double)maxHeap.top();
-        } else {
-            return (double)minHeap.top();
-        }
+        return maxHeap.size() > minHeap.size() 
+                ? maxHeap.top() 
+                : (double)(maxHeap.top() + minHeap.top()) / 2;
     }
 };
 
