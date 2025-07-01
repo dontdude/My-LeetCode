@@ -1,34 +1,45 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int m = haystack.size(), n = needle.size();
-        if(!n)  return 0;
+        int n = haystack.size(), m = needle.size();
 
-        vector<int> lps(n, 0);  
-        calculateLps(lps, needle);
-    
+        vector<int> LPS(m, 0);
+        constructLPS(needle, LPS);
+
         int i = 0, j = 0;
-        while(i < m) { 
-            if (haystack[i] == needle[j]) { 
-                i++, j++;
-                if(j == n)   return i - n;
+        while(i < n) {
+            if(haystack[i] == needle[j]) {
+                i++;
+                j++;
+
+                if(j == m) {
+                    return i - j;
+                }
+            } else if (j == 0) {
+                i++;
             } else {
-                if(j)  j = lps[j - 1];   // try match with longest prefix suffix
-                else i++;                // don't match -> go to next character
+                j = LPS[j - 1];
             }
         }
-        
+
         return -1;
     }
 
-    void calculateLps(vector<int>& lps, string needle){
-        int i = 1, j = 0;
-        while(i < needle.size()){ 
-            if(needle[j] == needle[i]){
-                lps[i++] = ++j;           // ++j
+    void constructLPS(string needle, vector<int>& LPS) {
+        int i = 1;
+        int prevLPS = 0;
+        LPS[0] = 0;
+
+        while(i < needle.size()) {
+            if(needle[i] == needle[prevLPS]) {
+                prevLPS++;
+                LPS[i] = prevLPS;
+                i++;
+            } else if (prevLPS == 0) {
+                LPS[i] = 0;
+                i++;
             } else {
-                if(j)  j = lps[j - 1];    // try match with longest prefix suffix
-                else i++;                 // don't match -> go to next character
+                prevLPS = LPS[prevLPS - 1];
             }
         }
     }
