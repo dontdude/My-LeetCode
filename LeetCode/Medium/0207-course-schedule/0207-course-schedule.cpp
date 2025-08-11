@@ -39,13 +39,12 @@ public:
 
     // DFS
     bool hasCycle(int node, vector<vector<int>>& graph, vector<int>& vis) {
+        if(vis[node] == 1)  return true;
+        if(vis[node] == 2)  return false;
+        
         vis[node] = 1;
         for(int nebr: graph[node]) {
-            if(vis[nebr] == 0) {
-                if(hasCycle(nebr, graph, vis))  return true;
-            } else if(vis[nebr] == 1) {  // reaches any node, in current connected componnets
-                return true;
-            } // else vis[nebr] == 2, means, it is already visited in another connection and doen't have any cycle
+            if(hasCycle(nebr, graph, vis))  return true;
         }
         vis[node] = 2;
 
@@ -60,11 +59,9 @@ public:
         }
 
         for(int i = 0; i < numCourses; i++) {
-            if(vis[i] == 0) {
                 if(hasCycle(i, graph, vis)) {
                     return false;
                 }
-            }
         }
 
         return true;
