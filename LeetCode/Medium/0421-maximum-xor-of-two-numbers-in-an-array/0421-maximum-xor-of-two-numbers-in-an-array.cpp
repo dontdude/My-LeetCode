@@ -1,8 +1,3 @@
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
 struct TrieNode {
     TrieNode* children[2]; // children[0] for bit 0, children[1] for bit 1
 
