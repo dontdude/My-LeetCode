@@ -45,8 +45,10 @@ public:
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
+        if(nums.empty())  return 0;
+
         DSU dsu;
-        int res = 0;
+        int res = 1;
         
         for(int num : nums) {
             if(dsu.isNodeInDSU(num))  continue;
