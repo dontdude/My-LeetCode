@@ -1,66 +1,22 @@
-class DSU {
-public: 
-    unordered_map<int, int> parent;
-    unordered_map<int, int> size;
-
-    DSU () {
-        parent.clear();
-        size.clear();
-    }
-
-    bool isNodeInDSU(int num) {
-        return parent.find(num) != parent.end();
-    }
-
-    void createNode(int num) {
-        parent[num] = num;
-        size[num] = 1;
-    }
-
-    int find(int num) {
-        if(parent[num] == num)  return num;
-        return parent[num] = find(parent[num]);  
-    }
-
-    int unite(int s1, int s2) {
-        int root1 = find(s1);
-        int root2 = find(s2);
-
-        if(root1 != root2) {
-            if(size[root1] > size[root2]) {
-                parent[root2] = root1;
-                size[root1] += size[root2];
-                return size[root1];
-            } else {
-                parent[root1] = root2;
-                size[root2] += size[root1];
-                return size[root2];
-            }
-        }
-
-        return size[root1];
-    }
-};
-
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        if(nums.empty())  return 0;
+        int res = 0;
+        unordered_set<int> hashSet(nums.begin(), nums.end());
 
-        DSU dsu;
-        int res = 1;
-        
-        for(int num : nums) {
-            if(dsu.isNodeInDSU(num))  continue;
+        for(int num : hashSet) {  //removes duplicate
 
-            dsu.createNode(num);
+            // Optimization: only traverse a group nexts (num + 1), if it is the first one (that is no num - 1 of this exsist)
+            if(hashSet.find(num - 1) == hashSet.end()) {
+                int curr_streak = 1;
+                int curr_num = num;
+                
+                while(hashSet.find(curr_num + 1) != hashSet.end()) {    
+                    curr_streak++;
+                    curr_num = curr_num + 1;
+                }
 
-            if(dsu.isNodeInDSU(num - 1)) {
-                res = max(res, dsu.unite(num, num - 1));
-            } 
-
-            if(dsu.isNodeInDSU(num + 1)) {
-                res = max(res, dsu.unite(num, num + 1));
+                res = max(res, curr_streak);
             }
         }
 
