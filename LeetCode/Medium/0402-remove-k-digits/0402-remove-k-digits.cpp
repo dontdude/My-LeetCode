@@ -1,46 +1,34 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        if(num == "0")  return "0";
+        int n = num.size();
+        if(n <= 1)  return "0";
 
-        stack<char> st;
-        int i = 0;
-        string res = "";
+        vector<char> stack;
 
-        for(i = 0; i < num.size() && k > 0; i++) {
-            while(k > 0 && (st.empty() == false && st.top() > num[i])) {
+        for(int i = 0; i < n; i++) {
+            while((stack.size() > 0 && k > 0) && stack.back() > num[i]) {
+                stack.pop_back();
                 k--;
-                st.pop();
             }
 
-            st.push(num[i]);
+            stack.push_back(num[i]);
         }
 
-        if(i != num.size()) {
-            res = num.substr(i);
-        }
-
-        while(k > 0 && st.empty() == false) {
-            st.pop();
+        while(stack.size() > 0 && k > 0) {
+            stack.pop_back();
             k--;
-        }  
-
-        string fromStack = "";
-        while(st.empty() == false) {
-            char c = st.top();
-            st.pop();
-
-            fromStack.push_back(c);   // instead of concatenate on single char.. using push_back.. it doesn't create new string in each concatenation, does no memory limit exceeded.
         }
 
-        reverse(fromStack.begin(), fromStack.end());
+        string smallestNum = "";
+        for(char digit : stack) {
+            if(digit == '0' && smallestNum == "") {
+                continue;
+            }
 
-        res = fromStack + res;
+            smallestNum.push_back(digit);
+        }
 
-        i = 0;
-        while(i < res.size() && res[i] == '0')  i++;
-
-        if(i == res.size())   return "0";
-        return res.substr(i); 
+        return smallestNum == "" ? "0" : smallestNum;
     }
 };
