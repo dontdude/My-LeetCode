@@ -1,16 +1,12 @@
 class Solution {
 public:
     bool isAnagram(vector<int> shash, vector<int> phash) {
-        for(int i = 0; i < 26; i++) {
-            if(shash[i] != phash[i]) {
-                return false;
-            }
-        }
-
-        return true;
+        return shash == phash;
     }
 
     vector<int> findAnagrams(string s, string p) {
+        if(s.size() < p.size())  return vector<int>();
+
         vector<int> phash(26, 0), shash(26, 0);
         vector<int> res;
 
