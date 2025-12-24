@@ -1,34 +1,35 @@
 class Solution {
 public:
-    bool isAnagram(vector<int> shash, vector<int> phash) {
-        return shash == phash;
-    }
-
     vector<int> findAnagrams(string s, string p) {
-        if(s.size() < p.size())  return vector<int>();
+        int ss = s.size(), ps = p.size();
+        if(ss < ps)   return {};
 
-        vector<int> phash(26, 0), shash(26, 0);
+        vector<int> phash(26, 0);
+        for(char pc : p) {
+            phash[pc - 'a']++;
+        }
+
+        int count = ps;   // Count of match to find
+        int left = 0, right = 0;
         vector<int> res;
 
-        for(char c : p) {
-            phash[c - 'a']++;
-        }
+        while(right < ss) {
+            if(phash[s[right] - 'a'] > 0) { 
+                count--;    // added a matching char, less count of match to find
+            }
 
-        for(int i = 0; i < p.size(); i++) {
-            shash[s[i] - 'a']++;
-        } 
+            phash[s[right] - 'a']--;   // always decrement, even if nonuseful char of s, goes negative
+            right++;
 
-        if(isAnagram(phash, shash)) {
-            res.push_back(0);
-        }
+            if(count == 0)  res.push_back(left);
 
-        for(int i = p.size(); i < s.size(); i++) {
-            int remove = i - p.size();
-            shash[s[remove] - 'a']--;
-            shash[s[i] - 'a']++;
+            if(right - left == ps) {
+                if(phash[s[left] - 'a'] >= 0) { 
+                    count++;   // removing from left a matching char
+                }
 
-            if(isAnagram(phash, shash)) {
-                res.push_back(remove + 1);
+                phash[s[left] - 'a']++;  // always increment, to even make nonuseful char hash as zero.
+                left++;
             }
         }
 
