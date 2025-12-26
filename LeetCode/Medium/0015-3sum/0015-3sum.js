@@ -6,13 +6,14 @@ var threeSum = function(nums) {
     let n = nums.length;
     var tripletSet = new Set();
 
-    nums.sort();
+    nums.sort((a, b) => a - b);
     for(let i = 0; i < n - 2; i++) {
+        if(i > 0 && nums[i] == nums[i - 1])   continue;
         let j = i + 1, k = n - 1;
 
         while(j < k) {
             let sum = nums[i] + nums[j] + nums[k];
-
+            
             if(sum == 0) {
                 tripletSet.add(JSON.stringify([nums[i], nums[j], nums[k]]));
                 j++;
