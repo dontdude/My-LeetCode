@@ -2,37 +2,44 @@ class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
         int ss = s.size(), ps = p.size();
-        if(ss < ps)   return {};
+        if(ss < ps) return {};
 
-        vector<int> phash(26, 0);
-        for(char pc : p) {
-            phash[pc - 'a']++;
+        vector<int> p_hash(26, 0);
+
+        for(char c : p) {
+            p_hash[c - 'a']++;
         }
 
-        int count = ps;   // Count of match to find
+        vector<int> anagramIndexs;
+        int count = ps;
         int left = 0, right = 0;
-        vector<int> res;
 
         while(right < ss) {
-            if(phash[s[right] - 'a'] > 0) { 
-                count--;    // added a matching char, less count of match to find
+            int rightChar = s[right] - 'a';
+
+            if(p_hash[rightChar] > 0) {
+                count--;
             }
 
-            phash[s[right] - 'a']--;   // always decrement, even if nonuseful char of s, goes negative
+            p_hash[rightChar]--;
             right++;
 
-            if(count == 0)  res.push_back(left);
-
             if(right - left == ps) {
-                if(phash[s[left] - 'a'] >= 0) { 
-                    count++;   // removing from left a matching char
+                if(count == 0) {
+                    anagramIndexs.push_back(left);
                 }
 
-                phash[s[left] - 'a']++;  // always increment, to even make nonuseful char hash as zero.
+                int leftChar = s[left] - 'a';
+
+                if(p_hash[leftChar] >= 0) {
+                    count++;
+                }
+
+                p_hash[leftChar]++;
                 left++;
             }
         }
 
-        return res;
+        return anagramIndexs;
     }
 };
