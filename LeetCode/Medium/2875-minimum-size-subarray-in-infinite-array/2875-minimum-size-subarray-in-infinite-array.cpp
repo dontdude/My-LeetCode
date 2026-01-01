@@ -12,15 +12,12 @@ public:
             return appended_size;
         }
 
-        vector<int> appended_nums = nums;
-        appended_nums.insert(appended_nums.end(), nums.begin(), nums.end());
-
         int left = 0, right = 0;
         int curr_sum = 0;
         int min_subarr = INT_MAX;
 
         while(right < (2 * n)) {
-            curr_sum += appended_nums[right];
+            curr_sum += nums[right % n];
             right++;
 
             while(curr_sum >= sub_target) {
@@ -28,7 +25,7 @@ public:
                     min_subarr = min(min_subarr, right - left);
                 }
 
-                curr_sum -= appended_nums[left];
+                curr_sum -= nums[left % n];
                 left++;
             }
         }
