@@ -11,11 +11,11 @@
 class Solution {
 public:
     pair<ListNode*, ListNode*> reverse(ListNode* node, int k) {
-        ListNode *prev = NULL;
-        ListNode *curr = node;
-        ListNode *next = NULL;
+        ListNode* prev = NULL;
+        ListNode* curr = node;
+        ListNode* next = NULL;
 
-        while(k-- && curr) {
+        while(k--) {
             next = curr->next;
             curr->next = prev;
             prev = curr;
@@ -23,10 +23,10 @@ public:
         }
 
         node->next = curr;
-        return {prev, node};  // head and last of new reversed group
+        return {prev, node};
     }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        if(k == 1)  return head;
+        if(head == NULL || head->next == NULL)  return head;
 
         ListNode* curr = head;
 
@@ -36,16 +36,16 @@ public:
             curr = curr->next;
         }
 
+
         ListNode* dummy = new ListNode(-1);
         dummy->next = head;
         curr = dummy;
 
         while(len >= k) {
-            auto reversedGroup = reverse(curr->next, k);
+            len -= k;
+            pair<ListNode*, ListNode*> reversedGroup = reverse(curr->next, k);
             curr->next = reversedGroup.first;
             curr = reversedGroup.second;
-
-            len -= k;
         }
 
         return dummy->next;
