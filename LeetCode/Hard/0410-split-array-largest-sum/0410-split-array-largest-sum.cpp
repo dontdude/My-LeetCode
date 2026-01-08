@@ -1,17 +1,17 @@
 class Solution {
 public:
-    int requiredKForThisSum(int poss_sum, vector<int>& nums) {
-        int k_req = 1;
-        int sum = 0;
+    int requiredK(int test_sum, vector<int>& nums) {
+        int k_req = 1, sum = 0;
+
         for(int num : nums) {
-            if(sum + num <= poss_sum) {
+            if(sum + num <= test_sum) {
                 sum += num;
             } else {
                 k_req++;
                 sum = num;
             }
         }
-        
+
         return k_req;
     }
     int splitArray(vector<int>& nums, int k) {
@@ -22,12 +22,12 @@ public:
         }
 
         while(low < high) {
-            int sum = low + (high - low) / 2;
+            int mid = low + (high - low) / 2;
 
-            if(requiredKForThisSum(sum, nums) <= k) {
-                high = sum;
+            if(requiredK(mid, nums) <= k) {
+                high = mid;
             } else {
-                low = sum + 1;
+                low = mid + 1;
             }
         }
 
