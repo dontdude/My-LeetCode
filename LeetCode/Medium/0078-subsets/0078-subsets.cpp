@@ -1,20 +1,25 @@
 class Solution {
-vector<vector<int>> res;
 public:
-    void dfs(int index, vector<int> currSubset, vector<int>& nums) {
-        if(index == nums.size()) {
-            res.push_back(currSubset);
+    void helper(int i, vector<int>& curr_sub, vector<vector<int>>& all_sub, vector<int>& nums) {
+        if(i >= nums.size()) {
+            all_sub.push_back(curr_sub);
             return;
         }
 
-        dfs(index + 1, currSubset, nums);   // next with current number not included
+        // include
+        curr_sub.push_back(nums[i]);
+        helper(i + 1, curr_sub, all_sub, nums);
 
-        currSubset.push_back(nums[index]);
-        dfs(index + 1, currSubset, nums);   // next with current number included
+        // not include
+        curr_sub.pop_back();
+        helper(i + 1, curr_sub, all_sub, nums);
     }
-
     vector<vector<int>> subsets(vector<int>& nums) {
-        dfs(0, vector<int>(), nums);
-        return res;
+        vector<int> curr_subset;
+        vector<vector<int>> all_subsets;
+
+        helper(0, curr_subset, all_subsets, nums);
+
+        return all_subsets;
     }
 };
