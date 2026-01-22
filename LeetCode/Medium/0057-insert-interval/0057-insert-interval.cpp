@@ -4,35 +4,25 @@ public:
         vector<vector<int>> res;
 
         int i = 0, n = intervals.size();
-        bool inserted = false;
 
-        while(i < n) {
-            if(newInterval[0] <= intervals[i][1] && inserted == false) {
-                if(newInterval[1] < intervals[i][0]) {
-                    res.push_back(newInterval);
-                    res.push_back(intervals[i]);
-                    inserted = true;
-                } else {
-                    vector<int> mergedInterval = {min(newInterval[0], intervals[i][0]), max(newInterval[1], intervals[i][1])};
-
-                    while(i + 1 < n && mergedInterval[1] >= intervals[i + 1][0]) {
-                        mergedInterval[1] = max(mergedInterval[1], intervals[i + 1][1]);
-                        i++;
-                    }
-
-                    res.push_back(mergedInterval);
-                    inserted = true;
-                }
-            } else {
-                res.push_back(intervals[i]);
-            }
-
-            i++;
+        while(i < n && intervals[i][1] < newInterval[0]) {  // Phase 1
+            res.push_back(intervals[i++]);
         }
 
-        if(inserted == false) {
-            res.push_back(newInterval);
-        } 
+        if(i < n) {
+            newInterval[0] = min(newInterval[0], intervals[i][0]);   // current overlapping may have smaller start
+            // not updating end, because it will fail if newInterval was our 1st going to be interval, levae it with while loop check
+        }
+
+        while(i < n && intervals[i][0] <= newInterval[1]) {  // phase 2
+            newInterval[1] = max(newInterval[1], intervals[i++][1]);
+        }
+
+        res.push_back(newInterval);
+
+        while(i < n) {  // phase 3
+            res.push_back(intervals[i++]);  
+        }
 
         return res;
     }
