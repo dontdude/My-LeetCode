@@ -1,35 +1,36 @@
 class Solution {
 public:
     long long maximumTotalDamage(vector<int>& power) {
-        int n =  power.size();
-        if(n == 1) return power[0];
+        unordered_map<int, int> hash_map;
 
-        map<int, long long> count;
-
-        for(int p : power) {
-            count[p]++;
+        for(int p: power) {
+            hash_map[p]++;
         }
 
-        int size = 0;
-        vector<int> unique_powers;
-        for(pair<int, int> unique_power : count) {
-            unique_powers.push_back(unique_power.first);
+        vector<int> unique_power;
+        for(auto pair : hash_map) {
+            unique_power.push_back(pair.first);
         }
 
-        vector<long long> dp(unique_powers.size(), 0);
-        dp[0] = unique_powers[0] * count[unique_powers[0]];
+        int n = unique_power.size();
+        sort(unique_power.begin(), unique_power.end());
 
-        for(int i = 1; i < unique_powers.size(); i++) {
-            long long take = unique_powers[i] * count[unique_powers[i]];
+        vector<long long> dp(n, 0);
 
+        for(int i = 0; i < n; i++) {
             int j = i - 1;
-            while(j >= 0 && unique_powers[j] > unique_powers[i] - 3)  j--;
+            while(j >= 0 && unique_power[j] >= unique_power[i] - 2) {
+                j--;
+            }
 
-            if(j >= 0)  take += dp[j];
+            long long take = (long long)unique_power[i] * hash_map[unique_power[i]];
+            take += j >= 0 ? dp[j] : 0;
 
-            dp[i] = max(take, dp[i - 1]);
+            long long notTake = i > 0 ? dp[i - 1] : 0;
+
+            dp[i] = max(take, notTake);
         }
 
-        return dp.back();
+        return dp[n - 1];
     }
 };
