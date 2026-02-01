@@ -4,18 +4,19 @@ class LRUCache {
         int val;
         Node* next;
         Node* prev;
-        Node(int _key, int _val) : key(_key), val(_val), next(nullptr), prev(nullptr) {}
+
+        Node(int k, int v) : key(k), val(v), next(nullptr), prev(nullptr) {}
     };
 
-    int cap;
+    int cap, currSize;
     Node *head, *tail;
     unordered_map<int, Node*> hash;
 
-    void insertAfterHead(Node* node) {
-        head->next->prev = node;
+    void insertAfterHead(Node*  node) {
         node->next = head->next;
-        node->prev = head;
+        head->next->prev = node;
         head->next = node;
+        node->prev = head;
     }
 
     void removeNode(Node* node) {
@@ -24,9 +25,8 @@ class LRUCache {
     }
 public:
     LRUCache(int capacity) {
-        this->cap = capacity;  
-
-        hash.clear();
+        cap = capacity;
+        currSize = 0;
 
         head = new Node(-1, -1);
         tail = new Node(-1, -1);
@@ -35,35 +35,38 @@ public:
     }
     
     int get(int key) {
-       if(hash.find(key) != hash.end()) {
+        if(hash.find(key) == hash.end()) {
+            return -1;
+        }
+
         Node* node = hash[key];
         removeNode(node);
         insertAfterHead(node);
         return node->val;
-       } 
-
-       return -1;
     }
     
     void put(int key, int value) {
-        Node* node;
-        
-        if(hash.find(key) != hash.end()) {
-            node = hash[key];
-            removeNode(node);
-            node->val = value;
-        } else {
-            node = new Node(key, value);
+        if(hash.find(key) == hash.end()) {
+            Node* node = new Node(key, value);
+            insertAfterHead(node);
             hash[key] = node;
-        }
-        
-        insertAfterHead(node);
+            currSize++;
 
-        if(hash.size() > cap) {
-            int lru_key = tail->prev->key;
-            removeNode(tail->prev);
-            hash.erase(lru_key);
+            if(currSize > cap) {
+                Node* lru = tail->prev;
+                int key = lru->key;
+                removeNode(lru);
+                hash.erase(key);
+                delete lru;
+                currSize--;
+            }
         }
+
+        Node* node = hash[key];
+        removeNode(node);
+
+        node->val = value;
+        insertAfterHead(node);
     }
 };
 
