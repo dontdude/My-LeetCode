@@ -20,26 +20,31 @@ public:
 */
 
 class Solution {
+    Node* dfs(Node* node, unordered_map<Node*, Node*>& nodeHash) {
+        if(node == NULL) {
+            return NULL;
+        }
+
+        // Node already exsist
+        if(nodeHash.find(node) != nodeHash.end()) {
+            return nodeHash[node];
+        }
+
+        // Else, creating new node.. and stroing it in hash 
+        Node* copyNode = new Node(node->val);
+        nodeHash[node] = copyNode;
+
+        // Adding cloned nebr graph
+        for(Node* nebr : node->neighbors) {
+            Node* copyNebr = dfs(nebr, nodeHash);
+            copyNode->neighbors.push_back(copyNebr);
+        }
+
+        return copyNode;
+    }
 public:
     Node* cloneGraph(Node* node) {
-       if(!node)  return NULL;
-       unordered_map<Node*, Node*> vis;
-       queue<Node*> q;
-       
-       return cloner(node, vis); 
-    }
-
-    Node* cloner(Node* node, unordered_map<Node*, Node*>& vis){
-       Node* clone = new Node(node->val, node->neighbors);
-       vis.insert({node, clone});
-
-       for(int i = 0; i < node->neighbors.size(); i++) {
-          if(node->neighbors[i]){ 
-            if(vis.find(node->neighbors[i]) == vis.end())   clone->neighbors[i] = cloner(node->neighbors[i], vis);
-            else clone->neighbors[i] = vis[node->neighbors[i]];
-          }
-       }
-       
-       return clone;
+        unordered_map<Node*, Node*> nodeHash;
+        return dfs(node, nodeHash);
     }
 };
