@@ -1,33 +1,45 @@
 class Solution {
-public:
-    bool dfsTopoSort(int node, vector<int>& vis, vector<int>& res, vector<vector<int>>& graph) {
-        if (vis[node] == 1) return true;
-        if (vis[node] == 2) return false;
+    bool topoSort(int n, vector<int>& inDegree, vector<int>& order, vector<vector<int>>& graph) {
+        queue<int> q;
+        int doable = 0;
 
-        vis[node] = 1;
-        for (int nebr : graph[node]) {
-            if (dfsTopoSort(nebr, vis, res, graph))  return true;
+        for(int i = 0; i < n; i++) {
+            if(inDegree[i] == 0) {
+                q.push(i);
+                inDegree[i]--;
+                order.push_back(i);
+                doable++;
+            }
         }
-        res.push_back(node);
-        vis[node] = 2;
 
-        return false;
+        while(q.empty() == false) {
+            int u = q.front();
+            q.pop();
+
+            for(int v : graph[u]) {
+                inDegree[v]--;
+                if(inDegree[v] == 0) {
+                    q.push(v);
+                    order.push_back(v);
+                    doable++;
+                }
+            }
+        }
+
+        return doable == n;
     }
+public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        // code here
+        vector<int> inDegree(numCourses, 0);
         vector<vector<int>> graph(numCourses);
-        vector<int> vis(numCourses, 0);
 
-        for (auto edge : prerequisites) {
-            graph[edge[1]].push_back(edge[0]);
+        for(vector<int> pre: prerequisites) {
+            graph[pre[1]].push_back(pre[0]);
+            inDegree[pre[0]]++;
         }
-
-        vector<int> res;
-        for (int i = 0; i < numCourses; i++) {
-            if (dfsTopoSort(i, vis, res, graph)) return vector<int>();
-        }
-
-        reverse(res.begin(), res.end());
-        return res;
+        
+        vector<int> order;
+        bool isCoursesDoable = topoSort(numCourses, inDegree, order, graph);
+        return isCoursesDoable ? order : vector<int>();
     }
 };
