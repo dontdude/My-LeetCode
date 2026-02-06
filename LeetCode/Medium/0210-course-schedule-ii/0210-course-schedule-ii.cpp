@@ -1,45 +1,36 @@
 class Solution {
-    bool topoSort(int n, vector<int>& inDegree, vector<int>& order, vector<vector<int>>& graph) {
-        queue<int> q;
-        int doable = 0;
+    bool dfsTopoSort(int u, vector<int>& order, vector<int>& visited, vector<vector<int>>& graph) {
+        visited[u] = 1;
 
-        for(int i = 0; i < n; i++) {
-            if(inDegree[i] == 0) {
-                q.push(i);
-                inDegree[i]--;
-                order.push_back(i);
-                doable++;
+        for(int v : graph[u]) {
+            if(visited[v] == 0) {
+                dfsTopoSort(v, order, visited, graph);
+            } else if(visited[v] == 1) {
+                return false;
             }
         }
 
-        while(q.empty() == false) {
-            int u = q.front();
-            q.pop();
-
-            for(int v : graph[u]) {
-                inDegree[v]--;
-                if(inDegree[v] == 0) {
-                    q.push(v);
-                    order.push_back(v);
-                    doable++;
-                }
-            }
-        }
-
-        return doable == n;
+        visited[u] = 2;
+        order.push_back(u);
+        return true;
     }
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int> inDegree(numCourses, 0);
         vector<vector<int>> graph(numCourses);
 
         for(vector<int> pre: prerequisites) {
             graph[pre[1]].push_back(pre[0]);
-            inDegree[pre[0]]++;
         }
-        
+
+        vector<int> visited(numCourses, 0);
         vector<int> order;
-        bool isCoursesDoable = topoSort(numCourses, inDegree, order, graph);
-        return isCoursesDoable ? order : vector<int>();
+        for(int i = 0; i < numCourses; i++) {
+            if(visited[i] == 0) {
+                if(dfsTopoSort(i, order, visited, graph) == false)  return vector<int>();
+            }
+        }
+
+        reverse(order.begin(), order.end());
+        return order;
     }
 };
