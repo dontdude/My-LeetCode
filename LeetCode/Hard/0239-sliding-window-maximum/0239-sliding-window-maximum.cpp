@@ -1,31 +1,32 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        deque<int> dq;
-        vector<int> res;
+        deque<int> mds;  // monotonic decreasing: want next greater everytime 
 
         for(int i = 0; i < k; i++) {
-            while(!dq.empty() && dq.front() < nums[i]) {  // monotonic stack, like:  back -> 3 2 1 <- front
-                dq.pop_front();
+            while(mds.empty() == false && mds.back() < nums[i]) {
+                mds.pop_back();
             }
 
-            dq.push_front(nums[i]);
+            mds.push_back(nums[i]);
         }
 
-        res.push_back(dq.back());   // back will always have the biggest element, in the current window
+        vector<int> maxFromWindows;
+        maxFromWindows.push_back(mds.front());
+
         for(int i = k; i < nums.size(); i++) {
-            while(!dq.empty() && dq.front() < nums[i]) { // if equal still push
-                dq.pop_front();
+            while(mds.empty() == false && mds.back() < nums[i]) {  // add new window elem to mds
+                mds.pop_back();
             }
 
-            if(!dq.empty() && dq.back() == nums[i - k]) {  // if elem to be removed is equal to back elemt.. pop it
-                dq.pop_back();
+            if(mds.empty() == false && mds.front() == nums[i - k]) {  // delete removed window elem from mds
+                mds.pop_front();
             }
-           
-            dq.push_front(nums[i]);
-            res.push_back(dq.back());  
+
+            mds.push_back(nums[i]);
+            maxFromWindows.push_back(mds.front());
         }
 
-        return res;
+        return maxFromWindows;
     }
 };
