@@ -1,19 +1,30 @@
 class Solution {
 public:
-    // using binary search: Time(O(nlogn)), space(O(n))
-    int lengthOfLIS(vector<int>& nums) {
-        vector<int> temp;
-        temp.push_back(nums[0]);
+    // recureence relation:
+    // rec(i) 
+        // if(i == 0) return 1;
 
-        for(int i = 1; i < nums.size(); i++) {
-            if(temp.back() < nums[i]) {
-                temp.push_back(nums[i]);
-            } else {
-                int ind = lower_bound(temp.begin(), temp.end(), nums[i]) - temp.begin();
-                temp[ind] = nums[i];
+        // int mxLen = 1;
+        // for(int j = 0; j < i; j++) {
+        //     if(nums[j] > nums[i])  mxLen = max(mxLen, rec(j) + 1)
+        // }
+        // res = max(res, mxLen)
+        // return mxLen
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> dp(n, 1);
+
+        int res = 1;
+        for(int i = 0; i < n; i++) {
+            for(int j = i - 1; j >= 0; j--) {
+                if(nums[j] < nums[i]) {
+                    dp[i] = max(dp[i], dp[j] + 1);
+                }
             }
+            res = max(res, dp[i]);
         }
 
-        return temp.size();
+        
+        return res;
     }
 };
