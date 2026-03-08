@@ -1,27 +1,20 @@
 class StockSpanner {
-    int index;
-    stack<pair<int, int>> mis;  // monotonic increasing stack, {stock value, index}
+    stack<pair<int, int>> mds;
 public:
     StockSpanner() {
-        index = 0;
+        
     }
     
     int next(int price) {
-        while(mis.empty() == false && mis.top().first <= price) {
-            mis.pop();
+        int count = 0;
+        while(mds.empty() == false && mds.top().first <= price) {
+            count += mds.top().second;
+            mds.pop();
         }
 
-        int lastBiggerElemIndex = -1;
-        if(mis.empty() == false) {
-            lastBiggerElemIndex = mis.top().second;
-        }
+        mds.push({price, count + 1});
 
-        int stockSpan = index - lastBiggerElemIndex;
-
-        mis.push({price, index}); // first stock has 0 index
-        index++;
-
-        return stockSpan;
+        return count + 1;
     }
 };
 
