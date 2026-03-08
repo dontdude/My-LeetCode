@@ -47,12 +47,7 @@ public:
     
     void put(int key, int value) {
         if(hash.find(key) == hash.end()) {
-            Node* node = new Node(key, value);
-            insertAfterHead(node);
-            hash[key] = node;
-            currSize++;
-
-            if(currSize > cap) {
+             if(currSize >= cap) {                  // evict first
                 Node* lru = tail->prev;
                 int key = lru->key;
                 removeNode(lru);
@@ -60,13 +55,18 @@ public:
                 delete lru;
                 currSize--;
             }
+
+            Node* node = new Node(key, value);
+            insertAfterHead(node);
+            hash[key] = node;
+            currSize++;
+        } else {
+            Node* node = hash[key];
+            removeNode(node);
+
+            node->val = value;
+            insertAfterHead(node);
         }
-
-        Node* node = hash[key];
-        removeNode(node);
-
-        node->val = value;
-        insertAfterHead(node);
     }
 };
 
