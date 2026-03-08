@@ -29,10 +29,12 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -41,8 +43,13 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
+| [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 <!---LeetCode Topics End-->
