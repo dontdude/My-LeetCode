@@ -1,22 +1,23 @@
 class Solution {
-    void expandFromCenter(int l, int r, string& res, string& s) {
+    void expandFromCenter(int l, int r, string& lps, string& s) {
         while(l >= 0 && r < s.size() && s[l] == s[r]) {
             l--;
             r++;
         }
-
-        if(res.size() < (r - l - 1)) {
-            res = s.substr(l + 1, r - l - 1);
+        
+        if(lps.size() < r - l - 1) {
+            lps = s.substr(l + 1, r - l - 1);
         }
     }
 public:
     string longestPalindrome(string s) {
-        string res = "";
+        string lps = "";
+
         for(int i = 0; i < s.size(); i++) {
-            expandFromCenter(i, i, res, s);  // odd len palidrome
-            expandFromCenter(i, i + 1, res, s); // even len
+            expandFromCenter(i, i, lps, s);
+            expandFromCenter(i, i + 1, lps, s);
         }
 
-        return res;
+        return lps;
     }
 };
