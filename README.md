@@ -66,4 +66,9 @@ All my LeetCode Submission are available Here.
 | [0005-longest-palindromic-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0008-string-to-integer-atoi/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
+| [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
 <!---LeetCode Topics End-->
