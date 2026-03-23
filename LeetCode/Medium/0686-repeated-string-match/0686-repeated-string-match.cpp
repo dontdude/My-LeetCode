@@ -29,7 +29,7 @@ class Solution {
 
         while(i < lps.size()) {
             if(pat[i] == pat[prevLPS]) {
-                lps[i] == prevLPS + 1;
+                lps[i] = prevLPS + 1;
 
                 i++;
                 prevLPS++;
@@ -48,8 +48,8 @@ public:
 
         int n = len_b / len_a;
 
-        string na = a;
-        for(int i = 1; i < n; i++) {
+        string na = "";
+        for(int i = 0; i < n; i++) {
             na += a;
         }
 
