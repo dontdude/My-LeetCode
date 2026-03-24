@@ -1,45 +1,64 @@
 class Solution {
-    bool KMPSearch(string& text, string& pat) {
-        int m = text.size(), n = pat.size();
-        int i = 0, j = 0;
+    long long power(int base, int exponent, int modulo) {
+        if(exponent == 0)  return 1;
+        if(exponent == 1)  return (long long)base;
 
-        vector<int> lps(n, 0);
-        constructLPS(lps, pat);
+        long long halfPower = power(base, exponent / 2, modulo);
+        long long result = (halfPower * halfPower) % modulo;
+
+        if(exponent & 1) {
+            result = (base * result) % modulo;
+        }
+
+        return result;
+    }
+    bool isPatFound(int start, string& text, string& pat) {
+        int n = pat.size();
+
+        for(int i = 0; i < n; i++) {
+            if(text[i + start] != pat[i])  return false;
+        }
+
+        return true;
+    }
+    bool RabinKarpSearch(string& text, string& pat) {
+        int m = text.size(), n = pat.size();
+
+        if (m < n) return false;
+        
+        int d = 26;   // strings consist of lowercase letters only
+        long long q = 1e9 + 7;   // large prime number for modulo
+
+        long long h = power(d, n - 1, q);
+        long long phash = 0;
+        long long thash = 0;
+
+        int i = 0;
+        while(i < n) {
+            phash = ((d * phash) + pat[i]) % q;
+            thash = ((d * thash) + text[i]) % q;
+            i++;
+        }
+
+        if(phash == thash && isPatFound(i - n, text, pat)) {
+            return true;
+        }
 
         while(i < m) {
-            if(text[i] == pat[j]) {
-                i++;
-                j++;
+            int currWindowStart = i - n;
 
-                if(j == n)  return true;
-            } else if(j == 0) {
-                i++;
-            } else {
-                j = lps[j - 1];
+            thash = (thash - (h * (text[currWindowStart]) % q) + q) % q;   // removing shifted window char
+
+            thash = ((d * thash) +  text[i]) % q;  // adding new window char
+
+            if(phash == thash && isPatFound(currWindowStart + 1, text, pat)) {
+                return true;
             }
+
+            i++;
         }
 
         return false;
-    }
-
-    void constructLPS(vector<int>& lps, string& pat) {
-        int prevLPS = 0;
-        int i = 1;
-        lps[0] = 0;
-
-        while(i < lps.size()) {
-            if(pat[i] == pat[prevLPS]) {
-                lps[i] = prevLPS + 1;
-
-                i++;
-                prevLPS++;
-            } else if(prevLPS == 0) {
-                lps[i] = 0;
-                i++;
-            } else {
-                prevLPS = lps[prevLPS - 1];
-            }
-        }
     }
 public:
     int repeatedStringMatch(string a, string b) {
@@ -53,17 +72,17 @@ public:
             na += a;
         }
 
-        if(KMPSearch(na, b)) {
+        if(RabinKarpSearch(na, b)) {
             return n;
         }
 
         na += a;
-        if(KMPSearch(na, b)) {
+        if(RabinKarpSearch(na, b)) {
             return n + 1;
         }
 
         na += a;
-        if(KMPSearch(na, b)) {
+        if(RabinKarpSearch(na, b)) {
             return n + 2;
         }
 
