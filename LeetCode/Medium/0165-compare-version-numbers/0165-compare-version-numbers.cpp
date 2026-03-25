@@ -25,10 +25,6 @@ public:
         vector<int> parsedV1 = parseVersion(version1);
         vector<int> parsedV2 = parseVersion(version2);
 
-        if(parsedV1 == parsedV2) {
-            return 0;
-        } 
-
         int i = 0, j = 0;
         int n1 = parsedV1.size(), n2 = parsedV2.size();
 
