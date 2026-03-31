@@ -31,6 +31,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -72,6 +73,7 @@ All my LeetCode Submission are available Here.
 | [0151-reverse-words-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0165-compare-version-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0165-compare-version-numbers/) | Medium |
 | [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
