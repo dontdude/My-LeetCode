@@ -38,9 +38,8 @@ class Solution {
         for(int i = n; i < m; i++) {
             thash = (thash - (h * (txt[i - n] - 'a')) % mod + mod) % mod;
             thash = ((thash * d) + (txt[i] - 'a')) % mod;
-
-            if(phash == thash && patFound(i - n, txt, pat)) {
-                return i - n;
+            if(phash == thash && patFound(i - n + 1, txt, pat)) {
+                return i - n + 1;
             }
         }
 
