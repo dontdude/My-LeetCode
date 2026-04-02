@@ -1,54 +1,56 @@
 class Trie {
     struct TrieNode {
-        map<char, TrieNode*> childMap;
-        bool isEnd;
+        int size;
+        bool isEndOfWord;
+        vector<TrieNode*> children;
 
-        TrieNode() {
-            isEnd = false;
+        TrieNode(int n) {
+            size = n;
+            isEndOfWord = false;
+            children.resize(size, nullptr);
         }
     };
 
+    int n = 26;
     TrieNode* root;
-
 public:
     Trie() {
-        root = new TrieNode();    
+        root = new TrieNode(n);
     }
     
     void insert(string word) {
         TrieNode* curr = root;
-
-        for(char ch : word) {
-            if(curr->childMap[ch] == NULL) {
-              curr->childMap[ch] = new TrieNode;
+        for(char c : word) {
+            int ind = c - 'a';
+            if(curr->children[ind] == nullptr) {
+                curr->children[ind] = new TrieNode(n);
             }
-            curr = curr->childMap[ch];
+
+            curr = curr->children[ind];
         }
 
-        curr->isEnd  = true;
+        curr->isEndOfWord = true;
     }
     
     bool search(string word) {
         TrieNode* curr = root;
+        for(char c : word) {
+            int ind = c - 'a';
+            if(curr->children[ind] == nullptr)  return false;
 
-        for(char ch : word) {
-            if(curr->childMap[ch] == NULL) {
-              return false;
-            }
-            curr = curr->childMap[ch];
+            curr = curr->children[ind];
         }
 
-        return curr->isEnd;
+        return curr->isEndOfWord;
     }
     
     bool startsWith(string prefix) {
         TrieNode* curr = root;
+        for(char c : prefix) {
+            int ind = c - 'a';
+            if(curr->children[ind] == nullptr)  return false;
 
-        for(char ch : prefix) {
-            if(curr->childMap[ch] == NULL) {
-              return false;
-            }
-            curr = curr->childMap[ch];
+            curr = curr->children[ind];
         }
 
         return true;
