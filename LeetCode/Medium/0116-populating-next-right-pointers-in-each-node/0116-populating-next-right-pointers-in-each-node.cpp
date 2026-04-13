@@ -12,37 +12,33 @@ public:
     Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
 
     Node(int _val, Node* _left, Node* _right, Node* _next)
-        : val(val), left(_left), right(_right), next(_next) {}
+        : val(_val), left(_left), right(_right), next(_next) {}
 };
 */
 
 class Solution {
 public:
     Node* connect(Node* root) {
-        if(root == NULL)  return root;
-
         queue<Node*> q;
         q.push(root);
-        while (!q.empty()) {
-            int sz = q.size();
-            Node* prev = NULL;
+        q.push(NULL);
 
-            for (int i = 0; i < sz; i++) {
-                Node* node = q.front();
-                q.pop();
+        Node* prev = NULL;
 
-                if (i == 0) {
-                    prev = node;
-                } else {
-                    prev->next = node;
-                    prev = node;
-                }
+        while(!q.empty()) {
+            Node* curr = q.front();
+            q.pop();
 
-                if (node->left)
-                    q.push(node->left);
-                if (node->right)
-                    q.push(node->right);
+            if(prev)  prev->next = curr;
+            prev = curr;
+
+            if(curr == NULL)  {
+                if(q.size() > 1) q.push(NULL);
+                continue;
             }
+
+            if(curr->left)     q.push(curr->left);
+            if(curr->right)    q.push(curr->right);
         }
 
         return root;
