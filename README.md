@@ -8,6 +8,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
@@ -17,6 +18,7 @@ All my LeetCode Submission are available Here.
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
@@ -107,6 +109,7 @@ All my LeetCode Submission are available Here.
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
@@ -118,12 +121,14 @@ All my LeetCode Submission are available Here.
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
