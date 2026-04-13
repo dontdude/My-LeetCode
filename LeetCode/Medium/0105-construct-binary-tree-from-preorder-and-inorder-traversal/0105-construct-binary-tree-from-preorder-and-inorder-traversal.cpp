@@ -10,31 +10,28 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* helper(int& preIndex, int inStart, int inEnd, vector<int>& pre, vector<int>& in, unordered_map<int, int>& inorderMap) {
-        if(inStart > inEnd)  return NULL;
+    TreeNode* constructTree(int& pre, vector<int>& preorder, int ins, int ine, vector<int>& inorder) {
+        if(ins > ine)  return nullptr;
 
-        int val = pre[preIndex];
-        preIndex++; // CRITICAL: preindex in pass by refernce notice in the parameters, this is because.. after traversing all the left. we want the updated values of preIndex to traverse all the right, not what the parent has
+        int in = ins;
+        while(in <= ine) {
+            if(preorder[pre] == inorder[in])  break;
+            in++;
+        }
 
-        TreeNode* node = new TreeNode(val);
+        if(in > ine)  return nullptr;
 
-        int inIndex = inorderMap[val];
+        TreeNode* node = new TreeNode(inorder[in]);
+        pre++;
 
-        node->left = helper(preIndex, inStart, inIndex - 1, pre, in, inorderMap);  //called with next preorder node val, and left part of inorder
-        node->right = helper(preIndex, inIndex + 1, inEnd, pre, in, inorderMap);  // called with next preorder node val, and right part of inorder
+        node->left = constructTree(pre, preorder, ins, in - 1, inorder);
+        node->right = constructTree(pre, preorder, in + 1, ine, inorder);
 
         return node;
     }
-
+public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int insz = inorder.size(), preIndex = 0;
-        unordered_map<int, int> inorderMap;  // to quickly find the index in inorder, against a value
-
-        for(int i = 0; i < insz; i++) {
-           inorderMap[inorder[i]] = i;
-        }
-
-        return helper(preIndex, 0, insz - 1, preorder, inorder, inorderMap);
+        int pre = 0;
+        return constructTree(pre, preorder, 0, inorder.size() - 1, inorder);
     }
 };
