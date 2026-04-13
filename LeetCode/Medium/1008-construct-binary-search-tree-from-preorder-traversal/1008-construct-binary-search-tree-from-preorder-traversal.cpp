@@ -6,32 +6,28 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
-public:
-    int ceilIndex(int s, int e, int val, vector<int>& pre) {
-        for (int i = s; i <= e; i++) {
-            if (pre[i] > val)
-                return i;
-        }
-        return e + 1;  // if no breakpoint found.. then e + 1 is my breakpoint (only left subtree element reamins )
-    }
-    TreeNode* helper(int s, int e, vector<int>& pre) {
-        if (s > e)
-            return NULL;
+    TreeNode* constructBST(int mn, int mx, int& i, vector<int>& preorder) {
+        if(i >= preorder.size()) return nullptr;
 
-        TreeNode* node = new TreeNode(pre[s]);
-        int breakpoint = ceilIndex(s + 1, e, pre[s], pre);
+        int val = preorder[i];
+        if(val < mn || val > mx)  return nullptr;
 
-        node->left = helper(s + 1, breakpoint - 1, pre);
-        node->right = helper(breakpoint, e, pre);
+        TreeNode* node = new TreeNode(val);
+        i++;
+
+        node->left = constructBST(mn, val, i, preorder);
+        node->right = constructBST(val, mx, i, preorder);
 
         return node;
     }
+public:
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        return helper(0, preorder.size() - 1, preorder);
+        if(preorder.size() < 1)  return nullptr;
+        int start = 0;
+        return constructBST(INT_MIN, INT_MAX, start, preorder);
     }
 };
