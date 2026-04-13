@@ -20,31 +20,26 @@ public:
 */
 
 class Solution {
-    Node* dfs(Node* node, unordered_map<Node*, Node*>& nodeHash) {
-        if(node == NULL) {
-            return NULL;
+    Node* clone(unordered_map<int, Node*>& cloneHash, Node* node) {
+        if(node == nullptr)  return nullptr;
+        
+        int val = node->val;
+        if(cloneHash.find(val) != cloneHash.end()) {
+            return cloneHash[val];
         }
 
-        // Node already exsist
-        if(nodeHash.find(node) != nodeHash.end()) {
-            return nodeHash[node];
-        }
+        Node* cloneNode = new Node(val);
+        cloneHash[val] = cloneNode;
 
-        // Else, creating new node.. and stroing it in hash 
-        Node* copyNode = new Node(node->val);
-        nodeHash[node] = copyNode;
-
-        // Adding cloned nebr graph
         for(Node* nebr : node->neighbors) {
-            Node* copyNebr = dfs(nebr, nodeHash);
-            copyNode->neighbors.push_back(copyNebr);
+            cloneNode->neighbors.push_back(clone(cloneHash, nebr));
         }
 
-        return copyNode;
+        return cloneNode;
     }
 public:
     Node* cloneGraph(Node* node) {
-        unordered_map<Node*, Node*> nodeHash;
-        return dfs(node, nodeHash);
+        unordered_map<int, Node*> cloneHash;
+        return clone(cloneHash, node);
     }
 };
