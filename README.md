@@ -11,6 +11,7 @@ All my LeetCode Submission are available Here.
 | [0128-longest-consecutive-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -43,11 +44,13 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -98,4 +101,16 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 <!---LeetCode Topics End-->
