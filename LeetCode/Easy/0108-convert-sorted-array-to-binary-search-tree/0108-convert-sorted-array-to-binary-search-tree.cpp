@@ -6,25 +6,23 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
-public:
-    TreeNode* helper(int s, int e, vector<int>& nums) {
-        if (s > e)
-            return NULL;
+    TreeNode* constructBST(int l, int r, vector<int>& nums) {
+        if(l > r)  return nullptr;
 
-        int m = (e - s) / 2 + s;
-        TreeNode* node = new TreeNode(nums[m]);
+        int mid = l + (r - l) / 2;
 
-        node->left = helper(s, m - 1, nums);
-        node->right = helper(m + 1, e, nums);
+        TreeNode* node = new TreeNode(nums[mid]);
+        node->left = constructBST(l, mid - 1, nums);
+        node->right = constructBST(mid + 1, r, nums);
 
         return node;
     }
+public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-        return helper(0, nums.size() - 1, nums);
+        return constructBST(0, nums.size() - 1, nums);
     }
 };
