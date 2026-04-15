@@ -10,21 +10,24 @@
  * };
  */
 class Solution {
-public:
-    int helper(TreeNode* node, int& res) {
-        if(node == NULL) return 0;
+    int maxDiameter;
 
-        int lh = helper(node->left, res);
-        int rh = helper(node->right, res);
+    int dfs(TreeNode* node) {
+        if(node == nullptr)  return 0;
 
-        res = max(res, lh + rh);  // diameter = left height + right Height for any current node
+        int lh = dfs(node->left);
+        int rh = dfs(node->right);
 
-        return 1 + max(lh, rh);  // return height of current subtree
+        maxDiameter = max(maxDiameter, lh + rh);
+
+        return 1 + max(lh, rh);
     }
-
+public:
+    Solution() {
+        maxDiameter = 0;
+    }
     int diameterOfBinaryTree(TreeNode* root) {
-        int res = 0;
-        helper(root, res);
-        return res;
+        dfs(root);
+        return maxDiameter;
     }
 };
