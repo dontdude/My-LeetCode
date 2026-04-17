@@ -8,14 +8,13 @@
  * };
  */
 class Codec {
-    string getNodeToken(string& s) {
+    string getNodeToken(string& s, int& i) {
         string nodeToken = "";
-        int i = 0;
         while(i < s.size() && s[i] != ',') {
             nodeToken.push_back(s[i++]);
         }
 
-        s = s.substr(i + 1);
+        i++; // skip ","
 
         return nodeToken;
     }
@@ -49,7 +48,8 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        string rootToken = getNodeToken(data);
+        int i = 0;
+        string rootToken = getNodeToken(data, i);
         if(rootToken == "#") return NULL;
 
         TreeNode* root = new TreeNode(stoi(rootToken));
@@ -61,8 +61,8 @@ public:
             TreeNode* node = q.front();
             q.pop();
 
-            string leftToken = getNodeToken(data);
-            string rightToken = getNodeToken(data);
+            string leftToken = getNodeToken(data, i);
+            string rightToken = getNodeToken(data, i);
 
             if(leftToken != "#") {
                 TreeNode* left = new TreeNode(stoi(leftToken));
