@@ -170,6 +170,7 @@ All my LeetCode Submission are available Here.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0007-reverse-integer](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 ## Matrix
