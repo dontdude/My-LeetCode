@@ -74,6 +74,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
@@ -99,6 +100,7 @@ All my LeetCode Submission are available Here.
 | [0151-reverse-words-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0165-compare-version-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0165-compare-version-numbers/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## String Matching
@@ -123,6 +125,7 @@ All my LeetCode Submission are available Here.
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Binary Search Tree
@@ -136,6 +139,7 @@ All my LeetCode Submission are available Here.
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Divide and Conquer
@@ -149,6 +153,7 @@ All my LeetCode Submission are available Here.
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -157,6 +162,7 @@ All my LeetCode Submission are available Here.
 | [0127-word-ladder](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0127-word-ladder/) | Hard |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
