@@ -14,13 +14,10 @@ public:
             int d = x % 10;
             x /= 10;
 
-            if(d == 0 && revx == 0) continue;
-
             if(isSafe(revx, d, limit) == false) {
-                return 0;
-                
+                return 0; 
             } 
-            
+
             revx *= 10;
             revx += d;
         }
