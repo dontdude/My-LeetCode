@@ -10,37 +10,39 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* findInorderPredessor(TreeNode* node) {
+    // Note: Let the morris traversal finish, even if answer found, else thread would still be there. 
+    TreeNode* findPredecessor(TreeNode* node) {
         TreeNode* curr = node->left;
-        while(curr->right != NULL && curr->right != node) {
+
+        while(curr->right != nullptr && curr->right != node) {
             curr = curr->right;
         }
+
         return curr;
     }
-    void inorderTraversalWithIndex(int ind, int& res, int k, TreeNode* node) {
-        if(node == NULL)  return;
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        TreeNode* node = root;
+        int res = -1;
 
         while(node) {
-            if(node->left == NULL) {
-                if(++ind == k)  res = node->val;
-                node = node->right;
+            if(node->left == nullptr) {
+                if(--k == 0) res = node->val;
+                node = node->right; 
             } else {
-                TreeNode* predessor = findInorderPredessor(node);
-                if(predessor->right == node) {
-                    if(++ind == k)  res = node->val;  // even if answer found.. we can't return yet.. we need to fix tree, in morris traversal (pred->right = node ie)
-                    node = node->right;
-                    predessor->right = NULL;
-                } else {
-                    predessor->right = node;
+                TreeNode* pre = findPredecessor(node);
+
+                if(pre->right == nullptr) {
+                    pre->right = node;
                     node = node->left;
+                } else if(pre->right == node) {
+                    if(--k == 0)  res = node->val;
+                    pre->right = nullptr;
+                    node = node->right;
                 }
             }
         }
-    }
-    int kthSmallest(TreeNode* root, int k) {
-        int ind = 0, res = 0;
-        inorderTraversalWithIndex(ind, res, k, root);
+
         return res;
     }
 };
