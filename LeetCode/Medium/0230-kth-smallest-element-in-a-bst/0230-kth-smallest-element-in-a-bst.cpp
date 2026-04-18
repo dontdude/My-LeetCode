@@ -16,12 +16,15 @@ public:
         TreeNode* node = root;
 
         while(k > 0) {
+            bool goingToParent = false;
             if(node == nullptr) {
                 if(st.empty())  break;
+                goingToParent = true;
                 node = st.top();
+                st.pop();
             }
-
-            if(node->left == nullptr) {
+            
+            if(node->left == nullptr || goingToParent) {
                 if(--k == 0) return node->val;
                 node = node->right;
             } else {
