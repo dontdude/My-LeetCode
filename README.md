@@ -124,6 +124,7 @@ All my LeetCode Submission are available Here.
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0191-number-of-1-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
@@ -159,6 +160,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0191-number-of-1-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
