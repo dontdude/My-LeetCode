@@ -1,23 +1,45 @@
 class Solution {
-    void expandFromCenter(int l, int r, string& lps, string& s) {
-        while(l >= 0 && r < s.size() && s[l] == s[r]) {
-            l--;
-            r++;
-        }
-        
-        if(lps.size() < r - l - 1) {
-            lps = s.substr(l + 1, r - l - 1);
-        }
-    }
+    // recurrence relation
+    // Checker :
+    // rec(i, j)  // just checks i and j is palindromic or not
+    //     if(i == j) return true;
+    //     if(i > j)  return false;
+    
+
+    //     if(s[i] == s[j] && rec(i + 1, j - 1))  {
+    //         if s(i, j) is ans -> res = substr(i, j)
+    //         return true
+    //     } 
+
+    //     return false 
+
+    // Explorer: i = 0 -> n - 1   ...  j = n - 1 -> 0
+    // for i = 0 -> n - 1
+    //     for j = n - 1 -> i
+    //         rec(i, j)
 public:
     string longestPalindrome(string s) {
-        string lps = "";
+        int n = s.size();
+        vector<vector<bool>> dp(n, vector<bool>(n, false));
 
-        for(int i = 0; i < s.size(); i++) {
-            expandFromCenter(i, i, lps, s);
-            expandFromCenter(i, i + 1, lps, s);
+        string res = s.substr(0, 1); 
+
+        for(int i = n - 1; i >= 0; i--) {
+
+            for(int j = 0; j <= i; j++)  dp[i][j] = true; // base case 1 & b
+
+            for(int j = i + 1; j < n; j++) {
+                if(s[i] == s[j] && dp[i + 1][j - 1]) {
+                    dp[i][j] = true;
+                    
+                    int len = j - i + 1;
+                    if(res.size() < len) {
+                        res = s.substr(i, len);
+                    }
+                }
+            }
         }
 
-        return lps;
+        return res;
     }
 };
