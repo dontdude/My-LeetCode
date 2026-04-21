@@ -17,7 +17,7 @@ class Solution {
 
             for(int nebr: graph[node]) {
                 indegree[nebr]--;
-                if(indegree[nebr] == 0) {  cout<<node<<" "<<nebr<<endl;
+                if(indegree[nebr] == 0) { 
                     q.push(nebr);
                     indegree[nebr]--;
                     processed++;
