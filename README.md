@@ -65,6 +65,7 @@ All my LeetCode Submission are available Here.
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
@@ -105,6 +106,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0008-string-to-integer-atoi/) | Medium |
+| [0020-valid-parentheses](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0038-count-and-say](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0038-count-and-say/) | Medium |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
