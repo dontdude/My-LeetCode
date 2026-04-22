@@ -6,23 +6,18 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
-public:
-    bool helper(long long rangeStart, long long rangeEnd, TreeNode* node) {
-        if (node == NULL)
-            return true;
-        if (rangeStart > rangeEnd)
-            return false;
+    bool dfs(TreeNode* node, long long mx, long long mn) {
+        if(node == nullptr) return true;
+        if(node->val <= mn || node->val >= mx)  return false;
 
-        if (rangeStart >= node->val || node->val >= rangeEnd)
-            return false;
-
-        return helper(rangeStart, node->val, node->left) &&
-               helper(node->val, rangeEnd, node->right);
+        return dfs(node->left, node->val, mn) && dfs(node->right, mx, node->val);
     }
-    bool isValidBST(TreeNode* root) { return helper(LLONG_MIN, LLONG_MAX, root); }
+public:
+    bool isValidBST(TreeNode* root) {
+        return dfs(root, LLONG_MAX, LLONG_MIN);
+    }
 };
