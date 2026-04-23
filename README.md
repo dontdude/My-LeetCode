@@ -70,6 +70,7 @@ All my LeetCode Submission are available Here.
 | [0152-maximum-product-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0152-maximum-product-subarray/) | Medium |
 | [0213-house-robber-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
+| [0338-counting-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
@@ -147,6 +148,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0191-number-of-1-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0338-counting-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 ## Tree
