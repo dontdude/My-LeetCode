@@ -152,6 +152,7 @@ All my LeetCode Submission are available Here.
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
+| [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
@@ -172,6 +173,7 @@ All my LeetCode Submission are available Here.
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
+| [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
@@ -191,6 +193,7 @@ All my LeetCode Submission are available Here.
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
+| [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
@@ -204,6 +207,7 @@ All my LeetCode Submission are available Here.
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
+| [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
