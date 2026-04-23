@@ -49,6 +49,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
@@ -82,6 +83,7 @@ All my LeetCode Submission are available Here.
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
