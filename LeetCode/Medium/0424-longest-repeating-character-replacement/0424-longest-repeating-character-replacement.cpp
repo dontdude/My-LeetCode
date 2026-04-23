@@ -12,8 +12,6 @@ public:
             while((right - left) - maxOcc > k) {
                 count[s[left] - 'A']--;
                 left++;
-
-                maxOcc = *max_element(count.begin(), count.end());   // updating max occ each time
             } 
 
             result = max(result, right - left);
