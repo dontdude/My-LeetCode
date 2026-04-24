@@ -101,6 +101,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 ## Doubly-Linked List
@@ -128,6 +129,7 @@ All my LeetCode Submission are available Here.
 | [0151-reverse-words-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0165-compare-version-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0165-compare-version-numbers/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 | [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
@@ -141,6 +143,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 ## Bit Manipulation
@@ -200,6 +203,7 @@ All my LeetCode Submission are available Here.
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
