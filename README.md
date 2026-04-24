@@ -11,6 +11,7 @@ All my LeetCode Submission are available Here.
 | [0036-valid-sudoku](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0048-rotate-image](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -65,6 +66,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0152-maximum-product-subarray/) | Medium |
@@ -250,6 +252,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
+| [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
