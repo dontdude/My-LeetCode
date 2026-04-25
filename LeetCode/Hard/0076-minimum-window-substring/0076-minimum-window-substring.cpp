@@ -1,41 +1,34 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int ts = t.size(), ss = s.size();
-        if(ss < ts)  return "";
+        int m = s.size(), n = t.size();
+        int left = 0, right = 0, count = 0;
+        vector<int> freq(58, 0);
 
-        vector<int> t_hash(128, 0);
-        for(char c : t)  t_hash[c]++;
+        for(int i = 0; i < n; i++) {
+            freq[t[i] - 'A']++;
+            count++;
+        }
 
-        int left = 0, right = 0;
-        int resLeft = 0, resRight = INT_MAX;
-        int count = ts;
+        int resS = 0, resE = m + 1;
 
-        while(right < ss) {  
-            if(t_hash[s[right]] > 0) {
-                count--;
-            }
+        while(right < m) {
+            if(freq[s[right] - 'A']-- > 0) count--;
 
-            t_hash[s[right]]--;
             right++;
 
-            while(count <= 0) {
-                if(right - left < resRight - resLeft) {
-                    resRight = right;
-                    resLeft = left;
+            while(count == 0 && left < right) {
+                if(count == 0 && (resE - resS) > (right - left)) {
+                    resE = right;
+                    resS = left;
                 }
 
-                if(t_hash[s[left]] >= 0) {
-                    count++;
-                }
-
-                t_hash[s[left]]++;
+                if(freq[s[left] - 'A']++ >= 0)  count++;
                 left++;
             }
         }
 
-        if(resRight == INT_MAX)  return ""; 
-
-        return s.substr(resLeft, resRight - resLeft);
+        if(resE == m + 1)  return "";
+        return s.substr(resS, resE - resS);
     }
 };
