@@ -20,26 +20,24 @@ public:
 */
 
 class Solution {
-    Node* clone(unordered_map<int, Node*>& cloneHash, Node* node) {
-        if(node == nullptr)  return nullptr;
-        
-        int val = node->val;
-        if(cloneHash.find(val) != cloneHash.end()) {
-            return cloneHash[val];
-        }
+    Node* dfs(Node* node, unordered_map<Node*, Node*>& cloneMap) {
+        if(cloneMap.find(node) != cloneMap.end()) {
+            return cloneMap[node];
+        } 
 
-        Node* cloneNode = new Node(val);
-        cloneHash[val] = cloneNode;
+        Node* clonedNode = new Node(node->val); 
+        cloneMap[node] = clonedNode;
 
         for(Node* nebr : node->neighbors) {
-            cloneNode->neighbors.push_back(clone(cloneHash, nebr));
+            clonedNode->neighbors.push_back(dfs(nebr, cloneMap));
         }
 
-        return cloneNode;
+        return clonedNode;
     }
 public:
     Node* cloneGraph(Node* node) {
-        unordered_map<int, Node*> cloneHash;
-        return clone(cloneHash, node);
+        if(node == nullptr)  return nullptr;
+        unordered_map<Node*, Node*> cloneMap;
+        return dfs(node, cloneMap);
     }
 };
