@@ -14,6 +14,7 @@ All my LeetCode Submission are available Here.
 | [0053-maximum-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
+| [0056-merge-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0057-insert-interval/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
@@ -291,6 +292,7 @@ All my LeetCode Submission are available Here.
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0056-merge-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
