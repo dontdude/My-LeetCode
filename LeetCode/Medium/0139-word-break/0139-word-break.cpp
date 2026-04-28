@@ -15,7 +15,7 @@ public:
         dp[n] = '1';
 
         for(int i = n - 1; i >= 0; i--) {
-            for(string word : wordDict) {
+            for(string& word : wordDict) {
                 int size = word.size();
                 if((i + size) <= n && isPatternMatching(i, size, s, word)) {
                     if(dp[i + size] == '1') { 
