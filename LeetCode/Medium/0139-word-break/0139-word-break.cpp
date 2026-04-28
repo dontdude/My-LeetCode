@@ -1,28 +1,31 @@
 class Solution {
+    bool isPatternMatching(int start, int size, string& s, string& word) {
+        if(start + size >  s.size()) return false;
+        for(int i = 0; i < size; i++) {
+            if(s[i + start] != word[i]) return false;
+        }
+
+        return true;
+    }
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        
         int n = s.size();
-        vector<bool> dp(n, false);    // dp[i] = true if word ending at i, is present 
 
-        for(int i = 0; i < n; i++){
-            for(int j = i; j >= -1; j--){            // j = -1, than considering word staring from index 0 and ending at index i
-                if(j == -1 || dp[j]){
+        vector<char> dp(n + 1, '0');
+        dp[n] = '1';
 
-                    string curword = s.substr(j + 1, i - j);
-
-                    for(string word : wordDict) {
-                        if(curword == word){
-                            dp[i] = true;
-                            break;
-                        }
+        for(int i = n - 1; i >= 0; i--) {
+            for(string word : wordDict) {
+                int size = word.size();
+                if((i + size) <= n && isPatternMatching(i, size, s, word)) {
+                    if(dp[i + size] == '1') { 
+                        dp[i] = '1';
+                        break;
                     }
-
-                    if(dp[i])  break;
                 }
             }
         }
 
-        return dp[n-1];
+        return dp[0] == '1';
     }
 };
