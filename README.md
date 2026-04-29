@@ -31,6 +31,7 @@ All my LeetCode Submission are available Here.
 | [0238-product-of-array-except-self](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
@@ -54,6 +55,7 @@ All my LeetCode Submission are available Here.
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
@@ -138,6 +140,7 @@ All my LeetCode Submission are available Here.
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -229,6 +232,7 @@ All my LeetCode Submission are available Here.
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0191-number-of-1-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -301,6 +305,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 ## Recursion
@@ -334,4 +339,16 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
