@@ -36,6 +36,7 @@ All my LeetCode Submission are available Here.
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
+| [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
@@ -103,12 +104,14 @@ All my LeetCode Submission are available Here.
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Linked List
