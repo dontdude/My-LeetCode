@@ -32,6 +32,7 @@ All my LeetCode Submission are available Here.
 | [0213-house-robber-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
@@ -94,6 +95,7 @@ All my LeetCode Submission are available Here.
 | [0152-maximum-product-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0337-house-robber-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0337-house-robber-iii/) | Medium |
 | [0338-counting-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
@@ -215,6 +217,7 @@ All my LeetCode Submission are available Here.
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
