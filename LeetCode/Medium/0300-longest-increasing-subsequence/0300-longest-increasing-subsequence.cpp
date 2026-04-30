@@ -1,30 +1,34 @@
 class Solution {
 public:
-    // recureence relation:
-    // rec(i) 
-        // if(i == 0) return 1;
+    // dp way
+    // int lengthOfLIS(vector<int>& nums) {
+    //     int n = nums.size(), res = 1;
+    //     vector<int> dp(n, 1);
 
-        // int mxLen = 1;
-        // for(int j = 0; j < i; j++) {
-        //     if(nums[j] > nums[i])  mxLen = max(mxLen, rec(j) + 1)
-        // }
-        // res = max(res, mxLen)
-        // return mxLen
+    //     for(int i = 1; i < n; i++) {
+    //         for(int j = i - 1; j >= 0; j--) {
+    //             if(nums[i] > nums[j]) dp[i] = max(dp[i], 1 + dp[j]);
+    //             res = max(res, dp[i];)
+    //         }
+    //     }
+
+    //     return res;
+    // }
+
+    // binary search way
     int lengthOfLIS(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n, 1);
+        vector<int> incrSubseq;
 
-        int res = 1;
-        for(int i = 0; i < n; i++) {
-            for(int j = i - 1; j >= 0; j--) {
-                if(nums[j] < nums[i]) {
-                    dp[i] = max(dp[i], dp[j] + 1);
-                }
+        for(int& num : nums) {
+            if(incrSubseq.size() == 0 || incrSubseq.back() < num) {
+                incrSubseq.push_back(num);
+                continue;
             }
-            res = max(res, dp[i]);
+
+            int ind = lower_bound(incrSubseq.begin(), incrSubseq.end(), num) - incrSubseq.begin();
+            incrSubseq[ind] = num;
         }
 
-        
-        return res;
+        return incrSubseq.size();
     }
 };
