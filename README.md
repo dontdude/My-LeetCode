@@ -27,6 +27,7 @@ All my LeetCode Submission are available Here.
 | [0139-word-break](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0152-maximum-product-subarray/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0198-house-robber](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
@@ -210,6 +211,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
