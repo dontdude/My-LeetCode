@@ -8,6 +8,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0033-search-in-rotated-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0033-search-in-rotated-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0039-combination-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0039-combination-sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
@@ -220,6 +221,7 @@ All my LeetCode Submission are available Here.
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0033-search-in-rotated-sorted-array/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
