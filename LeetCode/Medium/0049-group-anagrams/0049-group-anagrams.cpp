@@ -1,35 +1,34 @@
 class Solution {
-public:
-    string stringFreqKey(string s) {
+    string getFreqKey(string str) {
         vector<int> count(26, 0);
-
-        for(int i = 0; i < s.size(); i++) {
-            count[s[i] - 'a']++;
-        }
+        for(char c : str) count[c - 'a']++;
 
         string freqKey = "";
         for(int i = 0; i < 26; i++) {
-            string charStr = to_string('a' + i);
-            string countStr = to_string(count[i]);
-            freqKey += charStr + "#" + countStr;
+            string freq = to_string(count[i]);
+            freq.push_back('a' + i);
+            freqKey.append(freq);
         }
 
         return freqKey;
     }
+public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string, vector<string>> anagrams;
+        unordered_map<string, int> hashmap;
+        vector<vector<string>> result;
 
-        for(string str: strs) {
-            string freqKey = stringFreqKey(str);
-            anagrams[freqKey].push_back(str);
+        for(string str : strs) {
+            string freqKey = getFreqKey(str);
+
+            if(hashmap.find(freqKey) == hashmap.end()) {
+                hashmap[freqKey] = result.size();
+                result.push_back({str});
+            } else {
+                int indexItBelongTo = hashmap[freqKey];
+                result[indexItBelongTo].push_back(str);
+            }
         }
 
-        vector<vector<string>> res;
-
-        for(auto anagram : anagrams) {
-            res.push_back(anagram.second);
-        }
-
-        return res;
+        return result;
     }
 };
