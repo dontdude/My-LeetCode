@@ -13,6 +13,7 @@ All my LeetCode Submission are available Here.
 | [0039-combination-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0039-combination-sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0048-rotate-image](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
@@ -50,6 +51,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
+| [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0076-minimum-window-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0076-minimum-window-substring/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
@@ -164,6 +166,7 @@ All my LeetCode Submission are available Here.
 | [0020-valid-parentheses](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0038-count-and-say](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0038-count-and-say/) | Medium |
+| [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0076-minimum-window-substring/) | Hard |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
@@ -331,6 +334,7 @@ All my LeetCode Submission are available Here.
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0056-merge-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
