@@ -10,28 +10,35 @@
  * };
  */
 class Solution {
-    TreeNode* constructTree(int& pre, vector<int>& preorder, int ins, int ine, vector<int>& inorder) {
-        if(ins > ine)  return nullptr;
+    TreeNode* builder(int& ps, vector<int>& preorder, int is, int ie, vector<int>& inorder, unordered_map<int, int>& indexMap) {
+        if(ps == preorder.size())  return NULL;
 
-        int in = ins;
-        while(in <= ine) {
-            if(preorder[pre] == inorder[in])  break;
-            in++;
+        TreeNode* node = new TreeNode(preorder[ps]);
+
+        if(is == ie) return node;
+
+        int icurr = indexMap[preorder[ps]];
+        
+        if(is <= icurr - 1) {
+            ps++;
+            node->left = builder(ps, preorder, is, icurr - 1, inorder, indexMap);
         }
-
-        if(in > ine)  return nullptr;
-
-        TreeNode* node = new TreeNode(inorder[in]);
-        pre++;
-
-        node->left = constructTree(pre, preorder, ins, in - 1, inorder);
-        node->right = constructTree(pre, preorder, in + 1, ine, inorder);
+        if(icurr + 1 <= ie) {
+            ps++;
+            node->right = builder(ps, preorder, icurr + 1, ie, inorder, indexMap);
+        }
 
         return node;
     }
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int pre = 0;
-        return constructTree(pre, preorder, 0, inorder.size() - 1, inorder);
+        unordered_map<int, int> indexMap;
+
+        for(int i = 0; i < inorder.size(); i++) {
+            indexMap[inorder[i]] = i;
+        }
+
+        int i = 0;
+        return builder(i, preorder, 0, inorder.size() - 1, inorder, indexMap);
     }
 };
