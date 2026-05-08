@@ -9,34 +9,25 @@
  * };
  */
 class Solution {
-struct compareByVal{
-    bool operator()(ListNode* node1, ListNode* node2) {
-        return node1->val > node2->val;
-    }
-};
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<ListNode*, vector<ListNode*>, compareByVal> pq;
+        priority_queue<pair<int, ListNode*>> maxheap;
 
-        for(ListNode* list : lists) {
-            if(list != NULL) {
-                pq.push(list);
-            }     
+        for(const auto& list : lists) {
+            if(list) maxheap.push({-list->val, list});
         }
 
-        ListNode* dummy = new ListNode(-1);
-        ListNode* prev = dummy;
+        ListNode *dummy = new ListNode(); 
+        ListNode *curr = dummy;
 
-        while(pq.empty() == false) {
-            ListNode* curr = pq.top();
-            pq.pop();
+        while(!maxheap.empty()) {
+            ListNode* node = maxheap.top().second;
+            maxheap.pop();
 
-            prev->next = curr;
-            prev = curr;
+            curr->next = node;
+            curr = curr->next;
 
-            if(curr->next) {
-                pq.push(curr->next);
-            }
+            if(node->next) maxheap.push({-node->next->val, node->next});
         }
 
         return dummy->next;
