@@ -52,6 +52,7 @@ All my LeetCode Submission are available Here.
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0036-valid-sudoku](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
@@ -173,6 +174,7 @@ All my LeetCode Submission are available Here.
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0008-string-to-integer-atoi/) | Medium |
 | [0020-valid-parentheses](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
@@ -375,6 +377,7 @@ All my LeetCode Submission are available Here.
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0076-minimum-window-substring/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 ## Simulation
