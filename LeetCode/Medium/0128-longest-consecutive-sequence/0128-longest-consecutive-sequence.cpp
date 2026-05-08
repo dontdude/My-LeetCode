@@ -9,12 +9,15 @@ class Solution {
             maxSizeTree = 0;
         }
 
+        bool isNodePresent(int num) {
+            return parent.find(num) != parent.end();
+        }
+
         int getMaxSize() {
             return maxSizeTree;
         }
 
         void add(int num) {
-            if(parent.find(num) != parent.end())  return;
             parent[num] = num;
             size[num] = 1;
             maxSizeTree = max(maxSizeTree, size[num]);
@@ -27,20 +30,15 @@ class Solution {
         }
 
         void unite(int i, int j) {
-            if(parent.find(j) == parent.end())  return;
-            int upi = find(i);
+            int upi = find(i); // ultimate parent of i
             int upj = find(j);
 
-            if(upi == upj) return;
+            if(upi != upj) {
+                if(size[upi] < size[upj])  swap(upi, upj);
 
-            if(size[upi] < size[upj]) {
                 parent[upj] = upi;
                 size[upi] += size[upj];
                 maxSizeTree = max(maxSizeTree, size[upi]);
-            } else {
-                parent[upi] = upj;
-                size[upj] += size[upi];
-                maxSizeTree = max(maxSizeTree, size[upj]);
             }
         }
     };
@@ -48,11 +46,13 @@ public:
     int longestConsecutive(vector<int>& nums) {
         DSU dsu;
 
-        for(int num : nums) {
+        for(const auto& num : nums) {
+            if(dsu.isNodePresent(num))  continue;
+
             dsu.add(num);
 
-            dsu.unite(num, num + 1);
-            dsu.unite(num, num - 1);
+            if(dsu.isNodePresent(num + 1)) dsu.unite(num, num + 1);
+            if(dsu.isNodePresent(num - 1)) dsu.unite(num, num - 1);
         }
 
         return dsu.getMaxSize();
