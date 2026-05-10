@@ -50,6 +50,7 @@ All my LeetCode Submission are available Here.
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -118,6 +119,7 @@ All my LeetCode Submission are available Here.
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0647-palindromic-substrings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0647-palindromic-substrings/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
