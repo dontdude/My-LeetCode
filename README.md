@@ -44,6 +44,7 @@ All my LeetCode Submission are available Here.
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
@@ -96,6 +97,7 @@ All my LeetCode Submission are available Here.
 | [0165-compare-version-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0165-compare-version-numbers/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0647-palindromic-substrings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0647-palindromic-substrings/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -175,6 +177,7 @@ All my LeetCode Submission are available Here.
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -255,6 +258,7 @@ All my LeetCode Submission are available Here.
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -368,6 +372,7 @@ All my LeetCode Submission are available Here.
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
@@ -385,6 +390,7 @@ All my LeetCode Submission are available Here.
 | [0003-longest-substring-without-repeating-characters](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0076-minimum-window-substring/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
