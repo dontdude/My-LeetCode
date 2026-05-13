@@ -9,28 +9,30 @@ public:
         }
 
         priority_queue<pair<int, char>> available;
-        queue<pair<int, pair<int, char>>> waiting;
+        pair<int, char> waiting = {-1, ' '};
 
         for(int i = 0; i < 26; i++) {
             if(count[i]) available.push({count[i], 'a' + i});
         }
 
         string res = "";
-        int time = 0;
-        while(!available.empty() || !waiting.empty()) {
-             while(!waiting.empty() && waiting.front().first <= time) {
-                available.push(waiting.front().second);
-                waiting.pop();
+        while(!available.empty() || waiting.first != -1) {
+            pair<int, char> newAvailable = {-1, ' '};
+            if(waiting.first != -1) {
+                newAvailable = waiting;
+                waiting = {-1, ' '};
             }
             
             if(!available.empty()) {
                 res.push_back(available.top().second);
                 int newAvailableCount = available.top().first - 1;
-                if(newAvailableCount) waiting.push({time + 2, {newAvailableCount, available.top().second}});
+                if(newAvailableCount) waiting = {newAvailableCount, available.top().second};
                 available.pop();
             }
 
-            time++;
+            if(newAvailable.first != -1) {
+                available.push(newAvailable);
+            } 
         }
 
         return res;
