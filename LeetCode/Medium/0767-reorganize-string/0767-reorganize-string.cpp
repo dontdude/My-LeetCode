@@ -2,49 +2,35 @@ class Solution {
 public:
     string reorganizeString(string s) {
         int n = s.size();
-
         vector<int> count(26, 0);
-        for(int i = 0; i < n; i++) {
-            count[s[i] - 'a']++;
+        
+        for(const auto& c: s) {
+            if(++count[c - 'a'] > (n + 1) / 2)  return "";
         }
 
-        priority_queue<pair<int, char>> pq;
-        int mx = 0, sum = 0;
+        priority_queue<pair<int, char>> available;
+        queue<pair<int, pair<int, char>>> waiting;
+
         for(int i = 0; i < 26; i++) {
-            if(count[i] > 0) {
-                char ch = (char)('a' + i);
-                pq.push({count[i], ch});
-
-                mx = max(mx, count[i]);
-                sum += count[i];
-            }
+            if(count[i]) available.push({count[i], 'a' + i});
         }
-
-        if(mx > (sum + 1) / 2) {
-            return "";
-        }
-
-        pair<int, char> hold = {-1, '-'};
 
         string res = "";
-        while(pq.empty() == false) {
-            auto top = pq.top();
-            pq.pop();
-
-            res += top.second;
-
-            if(hold.first != -1) {
-                pq.push(hold);
-                hold = {-1, '-'};
+        int time = 0;
+        while(!available.empty() || !waiting.empty()) {
+             while(!waiting.empty() && waiting.front().first <= time) {
+                available.push(waiting.front().second);
+                waiting.pop();
+            }
+            
+            if(!available.empty()) {
+                res.push_back(available.top().second);
+                int newAvailableCount = available.top().first - 1;
+                if(newAvailableCount) waiting.push({time + 2, {newAvailableCount, available.top().second}});
+                available.pop();
             }
 
-            if(top.first - 1 > 0) {
-                hold = {top.first - 1, top.second};
-            }
-        }
-
-        if(hold.first != -1) {
-            res += hold.second;
+            time++;
         }
 
         return res;
