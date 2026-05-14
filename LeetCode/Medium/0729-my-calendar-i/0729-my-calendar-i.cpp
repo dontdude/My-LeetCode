@@ -1,59 +1,26 @@
 class MyCalendar {
-    struct ListNode {
-        int start;
-        int end;
-        ListNode* next;
-
-        ListNode(int startTime, int endTime) {
-            start = startTime;
-            end = endTime;
-            next = nullptr;
-        }
-    };
-
-    ListNode* root;
+    map<int, int> calendar;
 public:
     MyCalendar() {
-        root = nullptr;
-    }
-
-    void insertNewNode(int startTime, int endTime, ListNode* prev) {
-        
+        calendar.clear();
     }
     
     bool book(int startTime, int endTime) {
-        ListNode* node = root;
-        ListNode* prev = nullptr;
+        auto equalOrGreaterIt = calendar.lower_bound(startTime);
 
-        while(node && node->end <= startTime) {
-            prev = node;
-            node = node->next;
+        if(equalOrGreaterIt != calendar.end() && equalOrGreaterIt->first < endTime) {
+            return false;
         }
 
-        if(node == nullptr) { 
-            node = new ListNode(startTime, endTime);
-
-            if(prev) {
-                prev->next = node;
-            } else {
-                root = node;
+        if(equalOrGreaterIt != calendar.begin()) {
+            auto prevIt = prev(equalOrGreaterIt);
+            if(prevIt->second > startTime) {
+                return false;
             }
-            
-            return true;
-        } else {
-            if(endTime <= node->start) {
-                ListNode* newNode = new ListNode(startTime, endTime);
-                if(prev) {
-                    prev->next = newNode;
-                } else {
-                    root = newNode;
-                }
-                newNode->next = node;
-                return true;
-            } 
         }
 
-        return false;
+        calendar[startTime] = endTime;
+        return true;
     }
 };
 
