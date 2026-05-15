@@ -51,6 +51,7 @@ All my LeetCode Submission are available Here.
 | [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 | [1953-maximum-number-of-weeks-for-which-you-can-work](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1953-maximum-number-of-weeks-for-which-you-can-work/) | Medium |
@@ -172,6 +173,7 @@ All my LeetCode Submission are available Here.
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+| [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
@@ -369,6 +371,7 @@ All my LeetCode Submission are available Here.
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0212-word-search-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
+| [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
