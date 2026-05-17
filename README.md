@@ -37,6 +37,7 @@ All my LeetCode Submission are available Here.
 | [0213-house-robber-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0213-house-robber-ii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
@@ -167,6 +168,7 @@ All my LeetCode Submission are available Here.
 | [0155-min-stack](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
+| [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
@@ -480,4 +482,8 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
 <!---LeetCode Topics End-->
