@@ -37,22 +37,20 @@ class MagicDictionary {
         bool searchWithDiff(int diff, int index, TrieNode* curr, string& word) {
             if(index == word.size())  return curr->isEnd && diff == 0;
 
-            bool isSubtreeSearchFound = false;
-
             int chIndex = word[index] - 'a';
             if(curr->children[chIndex] != nullptr) {
-                isSubtreeSearchFound |= searchWithDiff(diff, index + 1, curr->children[chIndex], word);
+                if(searchWithDiff(diff, index + 1, curr->children[chIndex], word)) return true;
             }
 
             if(diff == 1) {
                 for(int i = 0; i < 26; i++) {
                     if(chIndex != i && curr->children[i] != nullptr) {
-                        isSubtreeSearchFound |= searchWithDiff(diff - 1, index + 1, curr->children[i], word);
+                        if(searchWithDiff(diff - 1, index + 1, curr->children[i], word))  return true;
                     }
                 }
             }
 
-            return isSubtreeSearchFound;
+            return false;
         }
     };
     Trie* trie;
