@@ -81,6 +81,7 @@ All my LeetCode Submission are available Here.
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
+| [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
@@ -177,6 +178,7 @@ All my LeetCode Submission are available Here.
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
+| [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
@@ -227,6 +229,7 @@ All my LeetCode Submission are available Here.
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 | [0647-palindromic-substrings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0647-palindromic-substrings/) | Medium |
+| [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -244,6 +247,7 @@ All my LeetCode Submission are available Here.
 | [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0212-word-search-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
+| [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -337,6 +341,7 @@ All my LeetCode Submission are available Here.
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0572-subtree-of-another-tree/) | Easy |
+| [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
