@@ -42,7 +42,7 @@ class Solution {
         while(i < m) {
             int windowStart = i - n;
 
-            thash = (thash - (h * text[windowStart]) + mod) % mod;
+            thash = ((thash - (h * text[windowStart])) % mod + mod) % mod;
             thash = ((thash * d) + text[i]) % mod;
 
             if(thash == phash && patternMatch(windowStart + 1, text, pat))  return true;
@@ -62,17 +62,17 @@ public:
         }
 
         if(RabinKarpStringMatch(na, b)) {
+            return n;
+        }
+
+        na.append(a);
+        if(RabinKarpStringMatch(na, b)) {
             return n + 1;
         }
 
         na.append(a);
         if(RabinKarpStringMatch(na, b)) {
             return n + 2;
-        }
-
-        na.append(a);
-        if(RabinKarpStringMatch(na, b)) {
-            return n + 3;
         }
 
         return -1;
