@@ -1,10 +1,11 @@
 class Solution {
     int n;
     int s;
-    int getBoxID(int row, int col) {
-        int r = row - (row % s);
-        int c = col / 3;
-        return r + c;
+    int getBoxID(int row, int col) {    // 2d index -> 1d index of smaller sub grid
+        int row_id = row / 3;   // gives us => 0, 1 or 2
+        int col_id = col / 3;   // gives us => 0, 1 or 2
+        int box_id = (row_id * 3) + col_id;   // (0, 3, 6) + (0, 1, 2) => (0, 1, 2, ... 8)
+        return box_id;
     }
 public:
     Solution() {
