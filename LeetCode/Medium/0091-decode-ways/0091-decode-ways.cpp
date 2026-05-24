@@ -1,40 +1,23 @@
 class Solution {
-    // recurrren relation:
-    // rec(i) : i = 0 -> n
-    //     if i == n =>  return 1
-    //     else if i > n => return 0
-
-    //     if s[i] == 0 => return 0
-
-    //     sum += rec(i + 1)
-    //     if(num[i, i + 1] <= 26) sum += rec(i + 2)
+    bool isValidPair(const char& first, const char& second) {
+        return (first == '1') || (first == '2' && second < '7');
+    }
 public:
     int numDecodings(string s) {
-        if(s[0] == 0)  return 0;
-
         int n = s.size();
+        vector<int> dp(n, 0);
+        
+        if(s[0] == '0')  return 0;
+        else dp[0] = 1;
 
-        vector<int> dp(n + 1, 0);
-        dp[n] = 1;
+        for(int i = 1; i < n; i++) {
+            if(s[i] != '0')  dp[i] = dp[i - 1];
 
-        for(int i = n - 1; i >= 0; i--) {
-            if(s[i] == '0')  {
-                dp[i] = 0;
-                continue;
-            }
-
-            dp[i] += dp[i + 1];
-
-            if(i < n - 1) {
-                int dig = s[i] - '0';
-                int num = dig * 10 + (s[i + 1] - '0');
-
-                if(num <= 26) {
-                    dp[i] += dp[i + 2];
-                }
+            if(isValidPair(s[i - 1], s[i])) {
+                dp[i] += (i > 1) ? dp[i - 2] : 1;   // 1 way of getting even empty 
             }
         }
 
-        return dp[0];
+        return dp[n - 1];
     }
 };
