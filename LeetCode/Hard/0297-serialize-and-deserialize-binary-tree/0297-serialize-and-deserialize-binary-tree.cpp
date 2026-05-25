@@ -8,15 +8,27 @@
  * };
  */
 class Codec {
-    string getNodeToken(string& s, int& i) {
-        string nodeToken = "";
-        while(i < s.size() && s[i] != ',') {
-            nodeToken.push_back(s[i++]);
+    int getNextVal(int& i, string& data) {
+        if(data[i] == '#' || i >= data.size()) {
+            i += 2;
+            return INT_MIN;
         }
 
-        i++; // skip ","
+        int sign = 1;
+        if(data[i] == '-') {
+            i++;
+            sign = -1;
+        }
 
-        return nodeToken;
+        int val = 0;
+        while(i < data.size() && data[i] != ',') {
+            val *= 10;
+            val += data[i] - '0';
+            i++;
+        }
+
+        i++;
+        return sign * val;
     }
 public:
 
@@ -28,19 +40,19 @@ public:
         q.push(root);
 
         while(!q.empty()) {
-            TreeNode* node = q.front();
+            TreeNode* curr = q.front();
             q.pop();
 
-            if(node == NULL) {
+            if(curr == NULL) {
                 serialized.append("#,");
                 continue;
             }
 
-            string val = to_string(node->val);
-            serialized.append(val + ",");
+            string val = to_string(curr->val);
+            serialized.append(val + ',');
 
-            q.push(node->left);
-            q.push(node->right);
+            q.push(curr->left);
+            q.push(curr->right);
         }
 
         return serialized;
@@ -49,31 +61,31 @@ public:
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
         int i = 0;
-        string rootToken = getNodeToken(data, i);
-        if(rootToken == "#") return NULL;
+        int rootVal = getNextVal(i, data);
+        if(rootVal == INT_MIN) return NULL;
 
-        TreeNode* root = new TreeNode(stoi(rootToken));
+        TreeNode* root = new TreeNode(rootVal); 
 
         queue<TreeNode*> q;
         q.push(root);
 
-        while(!q.empty()) {
+        while(i < data.size()) {
             TreeNode* node = q.front();
             q.pop();
 
-            string leftToken = getNodeToken(data, i);
-            string rightToken = getNodeToken(data, i);
+            int leftVal = getNextVal(i, data);
+            int rightVal = getNextVal(i, data);
 
-            if(leftToken != "#") {
-                TreeNode* left = new TreeNode(stoi(leftToken));
-                node->left = left;
-                q.push(left);
+            if(leftVal != INT_MIN) {
+                TreeNode* leftNode = new TreeNode(leftVal);
+                node->left = leftNode;
+                q.push(leftNode);
             }
 
-            if(rightToken != "#") {
-                TreeNode* right = new TreeNode(stoi(rightToken));
-                node->right = right;
-                q.push(right);
+            if(rightVal != INT_MIN) {
+                TreeNode* rightNode = new TreeNode(rightVal);
+                node->right = rightNode;
+                q.push(rightNode);
             }
         }
 
