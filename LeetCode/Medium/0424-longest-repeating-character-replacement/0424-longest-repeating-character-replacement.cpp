@@ -1,20 +1,23 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int left = 0, right = 0, maxOcc = 0, result = 0;
         vector<int> count(26, 0);
 
-        while(right < s.size()) {
+        int right = 0, left = 0, n = s.size();
+        int maxCountInCurrWindow = 0, result = 0;
+
+        while(right < n) {
             count[s[right] - 'A']++;
-            maxOcc = max(maxOcc, count[s[right] - 'A']);
+            maxCountInCurrWindow = max(maxCountInCurrWindow, count[s[right] - 'A']);
             right++;
 
-            while((right - left) - maxOcc > k) {
+            while((right - left) - maxCountInCurrWindow > k) {
                 count[s[left] - 'A']--;
+                maxCountInCurrWindow = *max_element(count.begin(), count.end());
                 left++;
-            } 
+            }  
 
-            result = max(result, right - left);
+            result = max(result, right - left);     
         }
 
         return result;
