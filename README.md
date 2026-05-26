@@ -85,6 +85,7 @@ All my LeetCode Submission are available Here.
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -233,6 +234,7 @@ All my LeetCode Submission are available Here.
 | [0686-repeated-string-match](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0686-repeated-string-match/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+| [3120-count-the-number-of-special-characters-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
