@@ -1,60 +1,60 @@
 class Solution {
     class DSU {
-        int maxSizeTree;
+        int maxUnionSize;
         unordered_map<int, int> parent;
         unordered_map<int, int> size;
-
     public:
         DSU() {
-            maxSizeTree = 0;
+            maxUnionSize = 0;
+            parent.clear();
+            size.clear();
         }
 
-        bool isNodePresent(int num) {
-            return parent.find(num) != parent.end();
+        int getMaxUnionSize() {
+            return maxUnionSize;
         }
 
-        int getMaxSize() {
-            return maxSizeTree;
-        }
+        void addNode(int num) {
+            if(parent.find(num) != parent.end())  return;
 
-        void add(int num) {
             parent[num] = num;
             size[num] = 1;
-            maxSizeTree = max(maxSizeTree, size[num]);
+            maxUnionSize = max(maxUnionSize, 1);
         }
 
         int find(int num) {
-            if(parent[num] == num)  return num;
-
+            if(parent[num] == num) return num;
             return parent[num] = find(parent[num]);
         }
 
-        void unite(int i, int j) {
-            int upi = find(i); // ultimate parent of i
-            int upj = find(j);
+        void unite(int num1, int num2) {
+            if(parent.find(num2) == parent.end())  return;
 
-            if(upi != upj) {
-                if(size[upi] < size[upj])  swap(upi, upj);
+            int up1 = find(num1);
+            int up2 = find(num2);
 
-                parent[upj] = upi;
-                size[upi] += size[upj];
-                maxSizeTree = max(maxSizeTree, size[upi]);
-            }
+            if(up1 == up2)  return;
+
+            if(size[up1] > size[up2]) {
+                swap(up1, up2);
+            } 
+
+            parent[up2] = up1;
+            size[up1] += size[up2];
+            maxUnionSize = max(maxUnionSize, size[up1]);
         }
     };
 public:
     int longestConsecutive(vector<int>& nums) {
         DSU dsu;
 
-        for(const auto& num : nums) {
-            if(dsu.isNodePresent(num))  continue;
+        for(const int& num : nums) {
+            dsu.addNode(num);
 
-            dsu.add(num);
-
-            if(dsu.isNodePresent(num + 1)) dsu.unite(num, num + 1);
-            if(dsu.isNodePresent(num - 1)) dsu.unite(num, num - 1);
+            dsu.unite(num, num - 1);
+            dsu.unite(num, num + 1);
         }
 
-        return dsu.getMaxSize();
+        return dsu.getMaxUnionSize();
     }
 };
