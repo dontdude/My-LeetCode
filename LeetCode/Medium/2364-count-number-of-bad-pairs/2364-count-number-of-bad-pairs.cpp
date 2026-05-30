@@ -1,19 +1,18 @@
 class Solution {
 public:
     long long countBadPairs(vector<int>& nums) {
-        int n = nums.size();
-        long long badPairs = 0;
-        unordered_map<int, int> goodPairs;
+        unordered_map<int, long long> diffHash;
+        long long diffsTillNow = 0, pairs = 0;
 
-        for(int i = 0; i < n; i++) {
-            int val = nums[i] - i;
+        for(int i = 0; i < nums.size(); i++) {
+            int diff = nums[i] - i;
 
-            // i = total pairs seen till now
-            badPairs += i - goodPairs[val];
+            diffHash[diff]++;
+            diffsTillNow++;
 
-            goodPairs[val]++; 
+            pairs += diffsTillNow - diffHash[diff];
         }
 
-        return badPairs;
+        return pairs;
     }
 };
