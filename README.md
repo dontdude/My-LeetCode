@@ -39,6 +39,7 @@ All my LeetCode Submission are available Here.
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
+| [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
@@ -178,6 +179,7 @@ All my LeetCode Submission are available Here.
 | [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
@@ -322,6 +324,7 @@ All my LeetCode Submission are available Here.
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0190-reverse-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
+| [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -493,6 +496,7 @@ All my LeetCode Submission are available Here.
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 ## Ordered Set
@@ -504,4 +508,8 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 <!---LeetCode Topics End-->
