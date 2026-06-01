@@ -43,6 +43,7 @@ All my LeetCode Submission are available Here.
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
+| [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
@@ -79,6 +80,7 @@ All my LeetCode Submission are available Here.
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
+| [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
@@ -180,6 +182,7 @@ All my LeetCode Submission are available Here.
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
+| [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
@@ -378,6 +381,7 @@ All my LeetCode Submission are available Here.
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0371-sum-of-two-integers/) | Medium |
+| [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -512,4 +516,8 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
+## Randomized
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 <!---LeetCode Topics End-->
