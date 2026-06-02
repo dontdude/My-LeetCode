@@ -83,6 +83,7 @@ All my LeetCode Submission are available Here.
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
+| [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
@@ -169,6 +170,7 @@ All my LeetCode Submission are available Here.
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0206-reverse-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
+| [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 ## Design
@@ -183,6 +185,7 @@ All my LeetCode Submission are available Here.
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0307-range-sum-query-mutable](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
+| [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
@@ -196,6 +199,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
+| [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
