@@ -55,6 +55,7 @@ All my LeetCode Submission are available Here.
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
+| [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
@@ -194,6 +195,7 @@ All my LeetCode Submission are available Here.
 | [0677-map-sum-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0677-map-sum-pairs/) | Medium |
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
+| [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
@@ -487,6 +489,7 @@ All my LeetCode Submission are available Here.
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
+| [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 ## Quickselect
@@ -527,6 +530,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
+| [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
