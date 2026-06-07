@@ -62,6 +62,7 @@ All my LeetCode Submission are available Here.
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 | [1953-maximum-number-of-weeks-for-which-you-can-work](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1953-maximum-number-of-weeks-for-which-you-can-work/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
+| [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -300,6 +301,7 @@ All my LeetCode Submission are available Here.
 | [0572-subtree-of-another-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0572-subtree-of-another-tree/) | Easy |
 | [0919-complete-binary-tree-inserter](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0919-complete-binary-tree-inserter/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -370,6 +372,7 @@ All my LeetCode Submission are available Here.
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0572-subtree-of-another-tree/) | Easy |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
+| [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -386,12 +389,14 @@ All my LeetCode Submission are available Here.
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0449-serialize-and-deserialize-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0449-serialize-and-deserialize-bst/) | Medium |
 | [0919-complete-binary-tree-inserter](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0919-complete-binary-tree-inserter/) | Medium |
+| [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
+| [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
