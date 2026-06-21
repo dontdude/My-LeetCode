@@ -57,6 +57,7 @@ All my LeetCode Submission are available Here.
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
@@ -209,6 +210,7 @@ All my LeetCode Submission are available Here.
 | [0981-time-based-key-value-store](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0981-time-based-key-value-store/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
 | [1286-iterator-for-combination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1286-iterator-for-combination/) | Medium |
+| [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
@@ -225,6 +227,7 @@ All my LeetCode Submission are available Here.
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+| [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -428,6 +431,7 @@ All my LeetCode Submission are available Here.
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0371-sum-of-two-integers/) | Medium |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
+| [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -504,6 +508,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
+| [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
