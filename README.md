@@ -60,6 +60,7 @@ All my LeetCode Submission are available Here.
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
+| [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 | [1953-maximum-number-of-weeks-for-which-you-can-work](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1953-maximum-number-of-weeks-for-which-you-can-work/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
@@ -180,6 +181,7 @@ All my LeetCode Submission are available Here.
 | [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
+| [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -210,17 +212,20 @@ All my LeetCode Submission are available Here.
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
+| [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
+| [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+| [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -539,6 +544,7 @@ All my LeetCode Submission are available Here.
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
+| [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2327-number-of-people-aware-of-a-secret/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
