@@ -217,6 +217,7 @@ All my LeetCode Submission are available Here.
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
+| [1845-seat-reservation-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1845-seat-reservation-manager/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -241,6 +242,7 @@ All my LeetCode Submission are available Here.
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
+| [1845-seat-reservation-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1845-seat-reservation-manager/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
