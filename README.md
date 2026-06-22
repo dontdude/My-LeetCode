@@ -96,6 +96,7 @@ All my LeetCode Submission are available Here.
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0981-time-based-key-value-store/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Union-Find
@@ -213,6 +214,7 @@ All my LeetCode Submission are available Here.
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
+| [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 ## Doubly-Linked List
@@ -320,6 +322,7 @@ All my LeetCode Submission are available Here.
 | [0919-complete-binary-tree-inserter](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0919-complete-binary-tree-inserter/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -394,6 +397,7 @@ All my LeetCode Submission are available Here.
 | [0572-subtree-of-another-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0572-subtree-of-another-tree/) | Easy |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
