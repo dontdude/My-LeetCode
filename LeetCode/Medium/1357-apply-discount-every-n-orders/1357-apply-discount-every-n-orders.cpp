@@ -1,13 +1,13 @@
 class Cashier {
     int customer;
     int customerDiscountCycle;
-    int Discount;
+    double discountFactor;
     unordered_map<int, int> priceMap;
 public:
     Cashier(int n, int discount, vector<int>& products, vector<int>& prices) {
         customerDiscountCycle = n;
         customer = 0;
-        Discount = discount;
+        discountFactor = (100.0 - discount) / 100.0;
 
         for(int i = 0; i < products.size(); i++) {
             priceMap[products[i]] = prices[i];
@@ -25,7 +25,7 @@ public:
         if(customer == customerDiscountCycle) {
             customer = 0;
             
-            double discountedBill = (100.0 - Discount) * (bill / 100.0);
+            double discountedBill = bill * discountFactor;
             return discountedBill;
         }
 
