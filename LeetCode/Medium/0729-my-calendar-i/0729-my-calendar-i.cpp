@@ -1,25 +1,27 @@
 class MyCalendar {
-    map<int, int> calendar;
+    map<int, int> timeline;
 public:
     MyCalendar() {
-        calendar.clear();
+        
     }
     
     bool book(int startTime, int endTime) {
-        auto equalOrGreaterIt = calendar.lower_bound(startTime);
+        auto it = timeline.lower_bound(startTime);
 
-        if(equalOrGreaterIt != calendar.end() && equalOrGreaterIt->first < endTime) {
-            return false;
-        }
-
-        if(equalOrGreaterIt != calendar.begin()) {
-            auto prevIt = prev(equalOrGreaterIt);
-            if(prevIt->second > startTime) {
+        if(it != timeline.end()) {
+            if(endTime > it->first) {
                 return false;
             }
         }
-
-        calendar[startTime] = endTime;
+        
+        if(it != timeline.begin()) {
+            auto prevIt = prev(it);
+            if(startTime < prevIt->second) {
+                return false;
+            }
+        }
+        
+        timeline[startTime] = endTime;
         return true;
     }
 };
