@@ -67,6 +67,7 @@ All my LeetCode Submission are available Here.
 | [1953-maximum-number-of-weeks-for-which-you-can-work](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1953-maximum-number-of-weeks-for-which-you-can-work/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [2365-task-scheduler-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2365-task-scheduler-ii/) | Medium |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 ## Hash Table
@@ -501,6 +502,7 @@ All my LeetCode Submission are available Here.
 | [0076-minimum-window-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0076-minimum-window-substring/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0424-longest-repeating-character-replacement/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -563,6 +565,7 @@ All my LeetCode Submission are available Here.
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2327-number-of-people-aware-of-a-secret/) | Medium |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -588,4 +591,8 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
 <!---LeetCode Topics End-->
