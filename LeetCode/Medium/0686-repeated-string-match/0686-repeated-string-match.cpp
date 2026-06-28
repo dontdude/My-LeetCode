@@ -1,53 +1,46 @@
 class Solution {
-    long long modularExponentiation(int base, int exponent, int mod) {
-        if(exponent == 0) return 1LL;
-        if(exponent == 1) return (long long)base;
+    int mod = 1e9 + 7;
+    long long exponent(int base, int pow) {
+        if(pow == 0) return 1;
+        if(pow == 1) return base;
 
-        long long halfExpo = modularExponentiation(base, exponent / 2, mod);
+        long long sub = exponent(base, pow / 2);
+        long long res = (sub * sub) % mod;
 
-        long long res = (halfExpo * halfExpo) % mod;
-
-        if(exponent & 1) {
-            res = (res * base) % mod;
-        }
-
-        return res;
+        return (pow & 1) ? (res * base) % mod : res;
     }
-    bool patternMatch(int start, string& text, string& pat) {
+
+    bool isEqual(int start, string& pat, string& txt) {
         for(int i = 0; i < pat.size(); i++) {
-            if(text[i + start] != pat[i]) return false;
+            if(txt[start + i] != pat[i]) return false;
         }
         return true;
     }
-    bool RabinKarpStringMatch(string& text, string& pat) {
-        int m = text.size(), n = pat.size();
+    bool RabinKarp(string& pat, string& txt) {
+        int d = 26;
+        int n = pat.size(), m = txt.size();
         if(m < n) return false;
 
-        int mod = 1e9 + 7;
-        int d = 26; // base 26 based digit addition
-        
-        long long h = modularExponentiation(d, n - 1, mod);
-        long long phash = 0;
-        long long thash = 0;
-
+        long long patHash = 0, txtHash = 0;
+        long long h = exponent(d, n - 1);
         int i = 0;
-        while(i < n) {
-            phash = ((phash * d) + pat[i]) % mod;
-            thash = ((thash * d) + text[i]) % mod;
-            i++;
+
+        for(; i < n; i++) {
+            patHash = ((patHash * d) + pat[i] - 'a') % mod;
+            txtHash = ((txtHash * d) + txt[i] - 'a') % mod;
         }
 
-        if(thash == phash && patternMatch(0, text, pat))  return true;
+        if(patHash == txtHash && isEqual(0, pat, txt)) {
+            return true;
+        }
 
-        while(i < m) {
-            int windowStart = i - n;
+        for(; i < m; i++) { 
+            txtHash = (txtHash - (((txt[i - n] - 'a') * h) % mod) + mod) % mod;
+            txtHash = ((txtHash * d) + txt[i] - 'a') % mod;
 
-            thash = ((thash - (h * text[windowStart])) % mod + mod) % mod;
-            thash = ((thash * d) + text[i]) % mod;
-
-            if(thash == phash && patternMatch(windowStart + 1, text, pat))  return true;
-
-            i++;
+            if(patHash == txtHash && isEqual(i - n + 1, pat, txt)) {
+                return true;
+            }
         }
 
         return false;
@@ -57,23 +50,15 @@ public:
         int n = b.size() / a.size();
 
         string na = "";
-        for(int i = 0; i < n; i++) {
-            na.append(a);
-        }
+        for(int i = 0; i < n; i++)  na.append(a);
 
-        if(RabinKarpStringMatch(na, b)) {
-            return n;
-        }
+        if(RabinKarp(b, na))  return n;
 
         na.append(a);
-        if(RabinKarpStringMatch(na, b)) {
-            return n + 1;
-        }
-
+        if(RabinKarp(b, na))  return n + 1;
+        
         na.append(a);
-        if(RabinKarpStringMatch(na, b)) {
-            return n + 2;
-        }
+        if(RabinKarp(b, na))  return n + 2;
 
         return -1;
     }
