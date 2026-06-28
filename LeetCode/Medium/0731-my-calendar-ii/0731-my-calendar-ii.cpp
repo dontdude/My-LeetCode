@@ -2,21 +2,20 @@ class MyCalendarTwo {
     map<int, int> timeline;
 public:
     MyCalendarTwo() {
-        timeline.clear();
+        
     }
-    // Swee line Algo
+    
     bool book(int startTime, int endTime) {
         timeline[startTime]++;
         timeline[endTime]--;
 
         int overlaps = 0;
-        for(const auto& point : timeline) {
-            overlaps += point.second;
+        for(const auto& points : timeline) {
+            overlaps += points.second;
 
-            if(overlaps >= 3) {
-                if(--timeline[startTime] == 0)  timeline.erase(startTime);
-                if(++timeline[endTime] == 0)  timeline.erase(endTime);
-
+            if(overlaps > 2) {
+                if(--timeline[startTime] == 0) timeline.erase(startTime);
+                if(++timeline[endTime] == 0) timeline.erase(endTime);
                 return false;
             }
         }
