@@ -110,6 +110,7 @@ All my LeetCode Submission are available Here.
 | [0128-longest-consecutive-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -407,6 +408,7 @@ All my LeetCode Submission are available Here.
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -425,6 +427,7 @@ All my LeetCode Submission are available Here.
 | [0919-complete-binary-tree-inserter](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0919-complete-binary-tree-inserter/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -432,6 +435,7 @@ All my LeetCode Submission are available Here.
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
