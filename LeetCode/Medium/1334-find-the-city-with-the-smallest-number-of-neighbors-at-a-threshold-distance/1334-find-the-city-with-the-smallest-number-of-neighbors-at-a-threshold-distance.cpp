@@ -1,6 +1,6 @@
 class Solution {
     void dijkstra(int s, vector<vector<pair<int, int>>>& graph, vector<vector<int>>& dist, int& distanceThreshold) {
-        priority_queue<pair<int, int>> pq;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         dist[s][s] = 0;
         pq.push({0, s});
 
@@ -40,7 +40,7 @@ public:
             for(int j = 0; j < n; j++) {
                 if(i != j && dist[i][j] <= distanceThreshold) validNebr++;
             } 
-            
+
             if(validNebr <= minValidNebr) {
                 minValidNebr = validNebr;
                 resCity = i;
