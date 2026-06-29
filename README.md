@@ -65,6 +65,7 @@ All my LeetCode Submission are available Here.
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 | [1953-maximum-number-of-weeks-for-which-you-can-work](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1953-maximum-number-of-weeks-for-which-you-can-work/) | Medium |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [2365-task-scheduler-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2365-task-scheduler-ii/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
@@ -282,6 +283,7 @@ All my LeetCode Submission are available Here.
 | [0981-time-based-key-value-store](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0981-time-based-key-value-store/) | Medium |
 | [1286-iterator-for-combination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1286-iterator-for-combination/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
