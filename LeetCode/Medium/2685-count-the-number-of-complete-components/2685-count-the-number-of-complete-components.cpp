@@ -1,25 +1,15 @@
 class Solution {
-    void dfs(int u, vector<int>& vis, vector<vector<int>>& graph, unordered_set<int>& vertices) {
+    void dfs(int u, vector<int>& vis, vector<vector<int>>& graph, int& nodeCount, int& degree) {
         vis[u] = 1;
-        vertices.insert(u);
+        nodeCount++;
+
+        degree += graph[u].size();
 
         for(const int& v : graph[u]) {
             if(vis[v] == 0) {
-                dfs(v, vis, graph, vertices);
+                dfs(v, vis, graph, nodeCount, degree);
             }
         }
-    }
-
-    bool isConnectedComponent(unordered_set<int>& vertices, vector<vector<int>>& graph) {
-        for(const int& v : vertices) {
-            if(graph[v].size() != vertices.size() - 1) return false;
-
-            for(const int& nebr : graph[v]) {
-                if(vertices.find(nebr) == vertices.end())  return false;
-            }
-        }
-
-        return true;
     }
 public:
     int countCompleteComponents(int n, vector<vector<int>>& edges) {
@@ -34,10 +24,12 @@ public:
         int connectedComponents = 0;
         for(int i = 0; i < n; i++) {
             if(vis[i] == 0) {
-                unordered_set<int> vertices;
-                dfs(i, vis, graph, vertices);
+                int nodeCount = 0;
+                int degree = 0;
 
-                if(isConnectedComponent(vertices, graph))  connectedComponents++;
+                dfs(i, vis, graph, nodeCount, degree);
+
+                if(degree == (nodeCount * (nodeCount - 1)))  connectedComponents++;
             }
         }
 
