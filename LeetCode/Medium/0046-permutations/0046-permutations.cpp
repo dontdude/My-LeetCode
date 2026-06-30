@@ -1,21 +1,28 @@
 class Solution {
-    void solve(int i, vector<vector<int>>& res, vector<int>& nums) {
+    bool nextPermutation(vector<int>& nums) {
         int n = nums.size();
-        if(i == n) {
-            res.push_back(nums);
-            return;
-        }
+        int i = n - 1;
 
-        for(int j = i; j < n; j++) {
-            swap(nums[i], nums[j]);
-            solve(i + 1, res, nums);
-            swap(nums[i], nums[j]);
-        }
+        while(i > 0 && nums[i - 1] > nums[i])  i--;
+        if(i == 0)  return false;
+
+        int j = n - 1;
+        while(nums[j] < nums[i - 1])  j--;
+        swap(nums[i - 1], nums[j]);
+
+        reverse(nums.begin() + i, nums.end());
+        return true;
     }
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
-        solve(0, res, nums);
+        vector<int> curNums = nums;
+        sort(curNums.begin(), curNums.end());
+
+        do {
+            res.push_back(curNums);
+        } while(nextPermutation(curNums));
+
         return res;
     }
 };
