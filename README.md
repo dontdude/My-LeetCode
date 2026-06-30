@@ -162,6 +162,7 @@ All my LeetCode Submission are available Here.
 | [0020-valid-parentheses](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
@@ -183,6 +184,7 @@ All my LeetCode Submission are available Here.
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0023-merge-k-sorted-lists](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0023-merge-k-sorted-lists/) | Hard |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0141-linked-list-cycle](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
@@ -321,6 +323,7 @@ All my LeetCode Submission are available Here.
 | [0104-maximum-depth-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
@@ -361,6 +364,7 @@ All my LeetCode Submission are available Here.
 | [0104-maximum-depth-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
@@ -392,6 +396,7 @@ All my LeetCode Submission are available Here.
 | [0098-validate-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
 | [0100-same-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
