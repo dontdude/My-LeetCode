@@ -26,6 +26,7 @@ All my LeetCode Submission are available Here.
 | [0084-largest-rectangle-in-histogram](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0118-pascals-triangle](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
@@ -141,6 +142,7 @@ All my LeetCode Submission are available Here.
 | [0062-unique-paths](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
+| [0118-pascals-triangle](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0139-word-break](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
