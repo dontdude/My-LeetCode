@@ -13,6 +13,7 @@ All my LeetCode Submission are available Here.
 | [0036-valid-sudoku](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0039-combination-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0039-combination-sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0042-trapping-rain-water/) | Hard |
+| [0046-permutations](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0048-rotate-image](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
@@ -534,6 +535,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0039-combination-sum/) | Medium |
+| [0046-permutations](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
 | [0212-word-search-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [1286-iterator-for-combination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1286-iterator-for-combination/) | Medium |
