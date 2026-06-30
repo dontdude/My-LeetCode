@@ -455,6 +455,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0060-permutation-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0060-permutation-sequence/) | Hard |
 | [0062-unique-paths](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
@@ -507,6 +508,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
+| [0060-permutation-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0060-permutation-sequence/) | Hard |
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 ## Topological Sort
