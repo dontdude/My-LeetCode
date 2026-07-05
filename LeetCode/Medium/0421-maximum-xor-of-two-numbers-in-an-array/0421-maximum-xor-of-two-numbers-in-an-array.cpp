@@ -1,64 +1,71 @@
 class Solution {
     class Trie {
         struct TrieNode {
-            vector<TrieNode*> children;
+            vector<TrieNode*> bits;
 
             TrieNode() {
-                children.resize(2, nullptr);
+                bits.resize(2, nullptr);
             }
         };
-
-        TrieNode* root;
+        
     public:
+        TrieNode* root;
         Trie() {
             root = new TrieNode();
         }
 
-        void insert(int num) {
+        void addNumToTrie(int num) {
             TrieNode* curr = root;
 
-            for(int i = 31; i >= 0; i--) {
-                int bit = ((num >> i) & 1);
-
-                if(curr->children[bit] == nullptr) {
-                    curr->children[bit] = new TrieNode();
+            for(int i = 31; i >= 0; i--) {  // why msb is placed on trie node tree first, because when we process it.. we want the msb first to process, so that if we try to get 1 in inital phases of traversal we are sure shot it will be best answer.
+                int bit = 0;
+                if(num & (1 << i)) {
+                    bit  = 1;
                 }
 
-                curr = curr->children[bit];
+                if(curr->bits[bit] == nullptr) {
+                    curr->bits[bit] = new TrieNode();
+                }
+
+                curr = curr->bits[bit];
             }
         }
 
-        int currNumMaxXOR(int num) {
-            TrieNode* curr = root;
-            int currXor = 0;
+        void findMaxXor(TrieNode* node1, TrieNode* node2, int i, int curr, int& res) {
+            if(node1 == nullptr || node2 == nullptr || i < 0) {
+                res = max(res, curr);
+                return;
+            }
 
-            for(int i = 31; i >= 0; i--) {
-                int bit = ((num >> i) & 1);
-                int oppBit = (bit ^ 1);
+            int bit = 0, oppbit = 1;
+            int newCurr = (curr ^ (1 << i));
 
-                if(curr->children[oppBit] != nullptr) {
-                    currXor = (currXor ^ (1 << i));
-                    curr = curr->children[oppBit];
+            if(node1->bits[bit]) {
+                if(node2->bits[oppbit]) {
+                    findMaxXor(node1->bits[bit], node2->bits[oppbit], i - 1, newCurr, res);
                 } else {
-                    curr = curr->children[bit];
+                    findMaxXor(node1->bits[bit], node2->bits[bit], i - 1, curr, res);
                 }
             }
 
-            return currXor;
+            if(node1->bits[oppbit]) {
+                if(node2->bits[bit]) {
+                    findMaxXor(node1->bits[oppbit], node2->bits[bit], i - 1, newCurr, res);
+                } else {
+                    findMaxXor(node1->bits[oppbit], node2->bits[oppbit], i - 1, curr, res);
+                }
+            }
         }
     };
 public:
     int findMaximumXOR(vector<int>& nums) {
         Trie* trie = new Trie();
-
-        for(int num : nums) {
-            trie->insert(num);
+        for(const int& num : nums) {
+            trie->addNumToTrie(num);
         }
 
         int res = 0;
-        for(int num : nums) {
-            res = max(res, trie->currNumMaxXOR(num));
-        }
+        trie->findMaxXor(trie->root, trie->root, 31, 0, res);
 
         return res;
     }
