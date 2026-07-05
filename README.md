@@ -74,6 +74,7 @@ All my LeetCode Submission are available Here.
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -115,6 +116,7 @@ All my LeetCode Submission are available Here.
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -260,6 +262,7 @@ All my LeetCode Submission are available Here.
 | [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [1845-seat-reservation-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1845-seat-reservation-manager/) | Medium |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -363,6 +366,7 @@ All my LeetCode Submission are available Here.
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0981-time-based-key-value-store/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -445,6 +449,7 @@ All my LeetCode Submission are available Here.
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -481,6 +486,7 @@ All my LeetCode Submission are available Here.
 | [0212-word-search-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
