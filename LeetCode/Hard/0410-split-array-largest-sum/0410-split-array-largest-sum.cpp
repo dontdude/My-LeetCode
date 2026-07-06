@@ -1,36 +1,38 @@
 class Solution {
-public:
-    int requiredK(int test_sum, vector<int>& nums) {
-        int k_req = 1, sum = 0;
+    bool isValidAns(vector<int>& nums, int& k, int& possibleAns) {
+        int currSubarr = 0;
+        int reqK = 1;
 
-        for(int num : nums) {
-            if(sum + num <= test_sum) {
-                sum += num;
+        for(const int& num : nums) {
+            if(currSubarr + num <= possibleAns) {
+                currSubarr += num;
             } else {
-                k_req++;
-                sum = num;
+                reqK++;
+                currSubarr = num;
             }
         }
-
-        return k_req;
+        
+        return k >= reqK;
     }
+public:
     int splitArray(vector<int>& nums, int k) {
-        int low = 0, high = 0;
-        for(int num : nums) {
-            low = max(low, num);
-            high += num;
+        int minAns = 0, maxAns = 0;
+
+        for(const int& num : nums) {
+            minAns = max(minAns, num);
+            maxAns += num;
         }
 
-        while(low < high) {
-            int mid = low + (high - low) / 2;
+        while(minAns < maxAns) {
+            int possibleAns = minAns + (maxAns - minAns) / 2;
 
-            if(requiredK(mid, nums) <= k) {
-                high = mid;
+            if(isValidAns(nums, k, possibleAns)) {
+                maxAns = possibleAns;
             } else {
-                low = mid + 1;
+                minAns = possibleAns + 1;
             }
         }
 
-        return low;
+        return minAns;
     }
 };
