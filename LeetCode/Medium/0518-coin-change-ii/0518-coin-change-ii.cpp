@@ -1,18 +1,23 @@
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
-        
-        vector<int> dp(amount + 1, 0);
-        dp[0] = 1;  
+        int n = coins.size();
 
-        // Notice the loops, we complete amount for one coin than move to other coin
+        vector<uint64_t> prev(amount + 1, 0), curr(amount + 1, 0);
+        prev[0] = 1, curr[0] = 1;
 
-        for(int i = 0; i < coins.size(); i++){         // dp for combination where all permutation are considered same eg. 1, 1, 2 is same as 2, 1, 1
-            for(int j = 1; j <= amount; j++){
-                if(j >= coins[i])  dp[j] += dp[j - coins[i]];
+        for(int i = 0; i < n; i++) {
+            for(int j = 1; j <= amount; j++) {
+                curr[j] = 0;
+                if(coins[i] <= j) {
+                    curr[j] = curr[j - coins[i]];
+                }
+
+                curr[j] += prev[j];
             }
+            prev = curr;
         }
 
-        return dp[amount];
+        return prev[amount];
     }
 };
