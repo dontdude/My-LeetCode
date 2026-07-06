@@ -47,6 +47,7 @@ All my LeetCode Submission are available Here.
 | [0347-top-k-frequent-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
+| [0410-split-array-largest-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
@@ -159,6 +160,7 @@ All my LeetCode Submission are available Here.
 | [0322-coin-change](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0322-coin-change/) | Medium |
 | [0337-house-robber-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0337-house-robber-iii/) | Medium |
 | [0338-counting-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
+| [0410-split-array-largest-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0647-palindromic-substrings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0647-palindromic-substrings/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -362,6 +364,7 @@ All my LeetCode Submission are available Here.
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0449-serialize-and-deserialize-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0449-serialize-and-deserialize-bst/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
@@ -498,6 +501,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
@@ -558,6 +562,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 ## Memoization
