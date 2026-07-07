@@ -21,6 +21,7 @@ All my LeetCode Submission are available Here.
 | [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0057-insert-interval/) | Medium |
+| [0064-minimum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0075-sort-colors](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0075-sort-colors/) | Medium |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
@@ -148,6 +149,7 @@ All my LeetCode Submission are available Here.
 | [0053-maximum-subarray](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [0064-minimum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0070-climbing-stairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
 | [0118-pascals-triangle](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
@@ -487,6 +489,7 @@ All my LeetCode Submission are available Here.
 | [0036-valid-sudoku](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0036-valid-sudoku/) | Medium |
 | [0048-rotate-image](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0054-spiral-matrix/) | Medium |
+| [0064-minimum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
