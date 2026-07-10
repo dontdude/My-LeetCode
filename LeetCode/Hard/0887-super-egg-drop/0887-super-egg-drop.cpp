@@ -1,36 +1,24 @@
 class Solution {
 public:
     int superEggDrop(int k, int n) {
-        if(k == 1 || n == 1) return n;
+        vector<vector<int>> dp(n + 1, vector<int>(k + 1, 0));  // moves * eggs metrics. Where moves in worst case (eggs = 1) is equal to number of floor
 
-        vector<vector<int>> dp(n + 1, vector<int>(k + 1, 1e9));
+        int moves = 0;
 
-        for(int i = 0; i <= n; i++) {
-            for(int j = 1; j <= k; j++) {
-                if(i <= 1 || j == 1) {
-                    dp[i][j] = i;
-                    continue;
-                }
+        while(dp[moves][k] < n) {
+            moves++;
+            for(int eggs = 1; eggs <= k; eggs++) {
+                int floors_possible_with_given_moves_and_broken_egg = dp[moves - 1][eggs - 1];
+                int floors_possible_with_given_moves_and_unbroken_egg = dp[moves - 1][eggs];
 
-                int low = 1, high = i;
-                while(low <= high) {
-                    int f = low + (high - low) / 2;
+                int current_floor = 1;
 
-                    int breakCase = dp[f - 1][j - 1];
-                    int surviveCase = dp[i - f][j];
-
-                    int worstCase = max(breakCase, surviveCase);
-                    dp[i][j] = min(dp[i][j], 1 + worstCase);
-
-                    if(breakCase <= surviveCase) { // can take more risk
-                        low = f + 1;
-                    } else {
-                        high = f - 1;
-                    }
-                }
+                dp[moves][eggs] = current_floor 
+                                    + floors_possible_with_given_moves_and_broken_egg 
+                                    + floors_possible_with_given_moves_and_unbroken_egg;
             }
         }
 
-        return dp[n][k];
+        return moves;
     }
 };
