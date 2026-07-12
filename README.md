@@ -113,6 +113,7 @@ All my LeetCode Submission are available Here.
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [2365-task-scheduler-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2365-task-scheduler-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3829-design-ride-sharing-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/3829-design-ride-sharing-system/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -246,6 +247,7 @@ All my LeetCode Submission are available Here.
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 | [1845-seat-reservation-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1845-seat-reservation-manager/) | Medium |
+| [3829-design-ride-sharing-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/3829-design-ride-sharing-system/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -260,6 +262,7 @@ All my LeetCode Submission are available Here.
 | [0933-number-of-recent-calls](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0933-number-of-recent-calls/) | Easy |
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
+| [3829-design-ride-sharing-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/3829-design-ride-sharing-system/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -616,6 +619,7 @@ All my LeetCode Submission are available Here.
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2327-number-of-people-aware-of-a-secret/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
+| [3829-design-ride-sharing-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/3829-design-ride-sharing-system/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
