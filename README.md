@@ -64,6 +64,7 @@ All my LeetCode Submission are available Here.
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1357-apply-discount-every-n-orders](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1357-apply-discount-every-n-orders/) | Medium |
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
@@ -108,6 +109,7 @@ All my LeetCode Submission are available Here.
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0981-time-based-key-value-store/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 | [1357-apply-discount-every-n-orders](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1357-apply-discount-every-n-orders/) | Medium |
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
@@ -535,6 +537,7 @@ All my LeetCode Submission are available Here.
 | [0658-find-k-closest-elements](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0658-find-k-closest-elements/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
