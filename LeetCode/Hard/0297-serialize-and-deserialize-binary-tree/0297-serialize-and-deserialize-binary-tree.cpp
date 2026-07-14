@@ -8,82 +8,91 @@
  * };
  */
 class Codec {
-    int getNextVal(int& i, string& data) {
-        if(data[i] == '#' || i >= data.size()) {
+    int getNodeToken(string& data, int& i) {
+        if(data[i] == '1' && data[i + 1] == '#')  {
             i += 2;
             return INT_MIN;
         }
 
+        int tokenSize = 0;
+        while(data[i] != '_') { 
+            tokenSize *= 10;
+            tokenSize += (data[i] - '0');
+            i++;
+        }
+
+        i++;   
+        int token = 0;
         int sign = 1;
         if(data[i] == '-') {
-            i++;
             sign = -1;
+            i++;
+            tokenSize--;
         }
 
-        int val = 0;
-        while(i < data.size() && data[i] != ',') {
-            val *= 10;
-            val += data[i] - '0';
+        while(tokenSize--) { 
+            token *= 10;
+            token += (data[i] - '0');
             i++;
         }
 
-        i++;
-        return sign * val;
+        return sign * token;
     }
 public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        string serialized = "";
+        if(root == nullptr)  return "1#";
 
         queue<TreeNode*> q;
         q.push(root);
+        string s = "";
 
         while(!q.empty()) {
-            TreeNode* curr = q.front();
+            TreeNode* node = q.front();
             q.pop();
 
-            if(curr == NULL) {
-                serialized.append("#,");
+            if(node == nullptr) {
+                s.append("1#");
                 continue;
             }
 
-            string val = to_string(curr->val);
-            serialized.append(val + ',');
+            string nodeToken = to_string(node->val);
+            string tokenSize = to_string(nodeToken.size());
+            s.append(tokenSize + '_' + nodeToken);
 
-            q.push(curr->left);
-            q.push(curr->right);
+            q.push(node->left);
+            q.push(node->right);
         }
 
-        return serialized;
+        return s;
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
         int i = 0;
-        int rootVal = getNextVal(i, data);
-        if(rootVal == INT_MIN) return NULL;
+        int nodeToken = getNodeToken(data, i);
 
-        TreeNode* root = new TreeNode(rootVal); 
+        if(nodeToken == INT_MIN) return nullptr;
 
+        TreeNode* root = new TreeNode(nodeToken);
         queue<TreeNode*> q;
         q.push(root);
 
-        while(i < data.size()) {
+        while(!q.empty()) {
             TreeNode* node = q.front();
             q.pop();
 
-            int leftVal = getNextVal(i, data);
-            int rightVal = getNextVal(i, data);
-
-            if(leftVal != INT_MIN) {
-                TreeNode* leftNode = new TreeNode(leftVal);
+            int leftNodeToken = getNodeToken(data, i);
+            if(leftNodeToken != INT_MIN) {
+                TreeNode* leftNode = new TreeNode(leftNodeToken);
                 node->left = leftNode;
                 q.push(leftNode);
             }
 
-            if(rightVal != INT_MIN) {
-                TreeNode* rightNode = new TreeNode(rightVal);
+            int rightNodeToken = getNodeToken(data, i);
+            if(rightNodeToken != INT_MIN) {
+                TreeNode* rightNode = new TreeNode(rightNodeToken);
                 node->right = rightNode;
                 q.push(rightNode);
             }
