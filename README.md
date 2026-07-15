@@ -491,6 +491,7 @@ All my LeetCode Submission are available Here.
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -660,4 +661,8 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1291-sequential-digits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1291-sequential-digits/) | Medium |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 <!---LeetCode Topics End-->
