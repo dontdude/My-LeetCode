@@ -1,26 +1,22 @@
 class Solution {
 public:
     int peopleAwareOfSecret(int n, int delay, int forget) {
-        long mod = 1e9 + 7;
-        vector<long> dp(n, 0);  // number of people that can share secret at an i day (not all those who knows)
-        dp[0] = 1;
+        vector<int> dp(n + 1, 0); // number of NEW people who learn the secret on day i. 
+        dp[1] = 1;
+        int active_sharers = 0;
+        int mod = 1e9 + 7;
 
-        long canShare = 0;
-
-        for(int i = 1; i < n; i++) {
-            long newShare = (i >= delay) ? dp[i - delay] : 0;
-            long peopleForgetting = (i >= forget) ? dp[i - forget] : 0;
-
-            canShare = (canShare + newShare - peopleForgetting + mod) % mod;
-
-            dp[i] = canShare;
+        for(int i = 2; i <= n; i++) {
+            if(i - delay > 0)  active_sharers = (active_sharers + dp[i - delay]) % mod;
+            if(i - forget > 0) active_sharers = (active_sharers - dp[i - forget] + mod) % mod;
+            dp[i] = active_sharers;
         }
 
-        long knows = 0;
-        for(int i = max(n - forget, 0); i < n; i++) {   // start from first date, whose canshare people not forgetten at nth day.
-            knows = (knows + dp[i]) % mod;
+        int knowsAtNthDay = 0;
+        for(int i = n - forget + 1; i <= n; i++) {
+            if(i > 0) knowsAtNthDay = (knowsAtNthDay + dp[i]) % mod;
         }
 
-        return knows;
+        return knowsAtNthDay;
     }
 };
