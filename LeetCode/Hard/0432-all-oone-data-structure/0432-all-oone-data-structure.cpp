@@ -1,135 +1,136 @@
 class AllOne {
     class DLL {
-        struct ListNode {
+        struct Node {
             int freq;
-            unordered_set<string> hashSet;
-            ListNode* next;
-            ListNode* prev;
+            Node* prev;
+            Node* next;
+            unordered_set<string> keySet;
 
-            ListNode(int count) {
+            Node(int count) {
                 freq = count;
-                next = nullptr;
                 prev = nullptr;
+                next = nullptr;
             }
         };
-
-        ListNode *head, *tail;
-        unordered_map<int, ListNode*> hashNode;
+        
+        Node* head;
+        Node* tail;
+        unordered_map<string, Node*> nodeMap;
     public:
         DLL() {
-            head = new ListNode(-1);
-            tail = new ListNode(-1);
+            head = new Node(0);
+            tail = new Node(0);
             head->next = tail;
             tail->prev = head;
-            hashNode[-1] = head;
         }
 
-        string getMaxFreqKey() {
-            if(tail->prev->hashSet.empty()) return "";
-            return *tail->prev->hashSet.begin();
+        bool isKeyPresent(string& key) {
+            return nodeMap.find(key) != nodeMap.end();
         }
 
-        string getMinFreqKey() {
-            if(head->next->hashSet.empty()) return "";
-            return *head->next->hashSet.begin();
-        }
- 
-        bool isDLLNodeEmpty(int count) {
-            return hashNode[count]->hashSet.empty();
+        void addKeyToNextOfHead(string& key) {
+            addKeyToNextOfNode(key, head);
         }
 
-        void addStringToDLL(int count, string& str, int prevCount) {
-            if(hashNode.find(count) != hashNode.end()) {
-                hashNode[count]->hashSet.insert(str);
+        string getKeyFromTail() {
+            if(tail->prev == head || tail->prev->keySet.empty()) return "";
+            return *tail->prev->keySet.begin();
+        }
+
+        string getKeyFromHead() {
+            if(head->next == tail || head->next->keySet.empty())  return "";
+            return *head->next->keySet.begin();
+        }
+
+        void addToNextAndDeleteFromCurr(string& key) {
+            Node* node = nodeMap[key];
+            addKeyToNextOfNode(key, node);
+            removeKeyFromNode(key, node);
+        }
+
+        void addToPrevAndDeleteFromCurr(string& key) {
+            Node* node = nodeMap[key];
+            addKeyToPrevOfNode(key, node);
+            removeKeyFromNode(key, node);
+        }
+
+        void addKeyToNextOfNode(string& key, Node* node) {
+            Node* nextNode = node->next;
+
+            if(node->freq + 1 == nextNode->freq) {
+                nextNode->keySet.insert(key);
+                nodeMap[key] = nextNode;
             } else {
-                addDLLNode(count, str, prevCount);
+                Node* newNode = new Node(node->freq + 1);
+                newNode->keySet.insert(key);
+                nodeMap[key] = newNode;
+
+                node->next = newNode;
+                nextNode->prev = newNode;
+                newNode->prev = node;
+                newNode->next = nextNode;
             }
         }
 
-        int removeStringFromDLL(int count, string& str, bool isInc) {
-            hashNode[count]->hashSet.erase(str);
-
-            int newPrevCount = isInc ? count : hashNode[count]->prev->freq;
-            if(isDLLNodeEmpty(count)) {
-                newPrevCount = hashNode[count]->prev->freq;
-                removeDLLNode(count);
+        void addKeyToPrevOfNode(string& key, Node* node) {
+            Node* prevNode = node->prev;
+            if(node->freq == 1) {
+                nodeMap.erase(key);
+                return;
             }
 
-            return newPrevCount;
+            if(node->freq - 1 == prevNode->freq) {
+                prevNode->keySet.insert(key);
+                nodeMap[key] = prevNode;
+            } else {
+                Node* newNode = new Node(node->freq - 1);
+                newNode->keySet.insert(key);
+                nodeMap[key] = newNode;
+
+                node->prev = newNode;
+                prevNode->next = newNode;
+                newNode->prev = prevNode;
+                newNode->next = node;
+            }
         }
 
-        ListNode* addDLLNode(int count, string& str, int prevCount) {
-            ListNode* node = new ListNode(count);
-            ListNode* prevNode = hashNode[prevCount];
-            node->hashSet.insert(str);
-
-            ListNode* nextNode = prevNode->next;
-            prevNode->next = node;
-            node->prev = prevNode;
-            node->next = nextNode;
-            nextNode->prev = node;
-
-            hashNode[count] = node;
-            return node;
-        }
-
-        void removeDLLNode(int count) { 
-            ListNode* node = hashNode[count];
-            ListNode* prevNode = node->prev;
-            ListNode* nextNode = node->next;
-
-            prevNode->next = nextNode;
-            nextNode->prev = prevNode;
-
-            hashNode.erase(count);
-            delete node;
+        void removeKeyFromNode(string& key, Node* node) {
+            node->keySet.erase(key);
+            if(node->keySet.empty()) {
+                node->next->prev = node->prev;
+                node->prev->next = node->next;
+            }
         }
     };
 
-    DLL *dll;
-    unordered_map<string, int> hashMap;
+    DLL dll;
 public:
     AllOne() {
-        dll = new DLL();
     }
     
     void inc(string key) {
-        if(hashMap.find(key) == hashMap.end()) {
-            dll->addStringToDLL(1, key, -1);
-            hashMap[key] = 1;
-            
+        if(dll.isKeyPresent(key) == false) {
+            dll.addKeyToNextOfHead(key);
             return;
-        } 
+        }
 
-        int prevCount = hashMap[key];
-        int newPrevCount = dll->removeStringFromDLL(prevCount, key, true);
-        dll->addStringToDLL(prevCount + 1, key, newPrevCount);
-
-        hashMap[key] = prevCount + 1;
+        dll.addToNextAndDeleteFromCurr(key);
     }
     
     void dec(string key) {
-        if(hashMap.find(key) == hashMap.end()) {
+        if(dll.isKeyPresent(key) == false) {
             return;
-        } 
-
-        int prevCount = hashMap[key];
-        int newPrevCount = dll->removeStringFromDLL(prevCount, key, false);
-
-        if(prevCount > 1)  {
-            dll->addStringToDLL(prevCount - 1, key, newPrevCount);
-            hashMap[key] = prevCount - 1;
-        } else {
-            hashMap.erase(key);
         }
+
+        dll.addToPrevAndDeleteFromCurr(key);
     }
     
     string getMaxKey() {
-        return dll->getMaxFreqKey();
+        return dll.getKeyFromTail();
     }
     
     string getMinKey() {
-        return dll->getMinFreqKey();
+        return dll.getKeyFromHead();
     }
 };
 
