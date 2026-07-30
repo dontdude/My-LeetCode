@@ -113,6 +113,7 @@ All my LeetCode Submission are available Here.
 | [1331-rank-transform-of-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 | [1357-apply-discount-every-n-orders](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1357-apply-discount-every-n-orders/) | Medium |
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
+| [1797-design-authentication-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1797-design-authentication-manager/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [2365-task-scheduler-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2365-task-scheduler-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
@@ -216,6 +217,7 @@ All my LeetCode Submission are available Here.
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
 | [0641-design-circular-deque](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0641-design-circular-deque/) | Medium |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
+| [1797-design-authentication-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1797-design-authentication-manager/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -250,6 +252,7 @@ All my LeetCode Submission are available Here.
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [1603-design-parking-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1603-design-parking-system/) | Easy |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
+| [1797-design-authentication-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1797-design-authentication-manager/) | Medium |
 | [1845-seat-reservation-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1845-seat-reservation-manager/) | Medium |
 | [3829-design-ride-sharing-system](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/3829-design-ride-sharing-system/) | Medium |
 ## Doubly-Linked List
@@ -258,6 +261,7 @@ All my LeetCode Submission are available Here.
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0432-all-oone-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0432-all-oone-data-structure/) | Hard |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
+| [1797-design-authentication-manager](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1797-design-authentication-manager/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
