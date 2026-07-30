@@ -1,24 +1,25 @@
-class MyCalendarTwo { 
-    map<int, int> timeline;
+class MyCalendarTwo {
+    vector<pair<int, int>> bookings;
+    vector<pair<int, int>> overlaps;
 public:
     MyCalendarTwo() {
+        
     }
     
     bool book(int startTime, int endTime) {
-        timeline[startTime]++;
-        timeline[endTime]--;
-
-        int events = 0;
-        for(const auto& time : timeline) {
-            events += time.second;
-
-            if(events > 2) {
-                if(--timeline[startTime] == 0) timeline.erase(startTime);
-                if(++timeline[endTime] == 0) timeline.erase(endTime);
+        for(const auto& overlap : overlaps) {
+            if(startTime < overlap.second && endTime > overlap.first) {
                 return false;
             }
         }
 
+        for(const auto& booking : bookings) {
+            if(startTime < booking.second && endTime > booking.first) {
+                overlaps.push_back({max(startTime, booking.first), min(endTime, booking.second)});
+            }
+        }
+
+        bookings.push_back({startTime, endTime});
         return true;
     }
 };
