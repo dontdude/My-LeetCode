@@ -3,7 +3,7 @@ class AuthenticationManager {
     unordered_map<string, int> tokenHash;
     map<int, unordered_set<string>> timeMap;
 
-    void removeExpiredTokens(int& currentTime) {
+    void removeExpiredTokens(int currentTime) {
         while(timeMap.size()) {
             int minExpiryTime = timeMap.begin()->first;
             if(minExpiryTime > currentTime)  return;
@@ -32,6 +32,7 @@ public:
 
         int oldExpiryTime = tokenHash[tokenId];
         timeMap[oldExpiryTime].erase(tokenId);
+        if(timeMap[oldExpiryTime].size() == 0) timeMap.erase(oldExpiryTime);
 
         generate(tokenId, currentTime);
     }
