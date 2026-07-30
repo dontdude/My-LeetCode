@@ -2,33 +2,37 @@ class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
         vector<int> count(26, 0);
-        for(const int& task : tasks) count[task - 'A']++;
+        for(const char& task : tasks) {
+            count[task - 'A']++;
+        }
 
         priority_queue<int> available;
-        queue<pair<int, int>> waiting;
-        int time = 0;
-
         for(int i = 0; i < 26; i++) {
             if(count[i]) available.push(count[i]);
         }
 
-        while(!waiting.empty() || !available.empty()) { 
-            while(!waiting.empty() && waiting.front().first <= time) {
-                available.push(waiting.front().second);
-                waiting.pop();
+        int time = 0;
+        queue<pair<int, int>> cooldown;
+
+        while(!(available.empty() && cooldown.empty())) {
+            while(!cooldown.empty() && cooldown.front().second <= time) {
+                available.push(cooldown.front().first);
+                cooldown.pop();
             }
 
-            if(!available.empty()) {
-                int curCount = available.top();
+            int task;
+            if(available.empty()) {
+                time = cooldown.front().second;
+                task = cooldown.front().first;
+                cooldown.pop();
+            } else {
+                task = available.top();
                 available.pop();
-
-                int nextTime = time + (n + 1);
-                if(curCount > 1) waiting.push({nextTime, curCount - 1});
-                time++;
-            } else if(!waiting.empty()) {
-                time = waiting.front().first;
             }
-        }
+
+            if(task > 1) cooldown.push({task - 1, time + n + 1});
+            time++;
+        } 
 
         return time;
     }
