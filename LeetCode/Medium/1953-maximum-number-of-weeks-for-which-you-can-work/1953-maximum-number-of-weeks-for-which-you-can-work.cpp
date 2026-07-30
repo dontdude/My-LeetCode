@@ -1,19 +1,15 @@
 class Solution {
 public:
     long long numberOfWeeks(vector<int>& milestones) {
-        long long max_milestone = 0;
-        long long rest_milestones = 0;
+        long long total = 0;
+        int mx = 0;
 
-        for(const auto& milestone : milestones) {
-            max_milestone = max(max_milestone, (long long)milestone);
-            rest_milestones += milestone;
+        for(const int& milestone : milestones) {
+            total += milestone;
+            mx = max(mx, milestone);
         }
-        rest_milestones -= max_milestone;
 
-        if(rest_milestones + 1 < max_milestone) {
-            return (rest_milestones * 2) + 1;
-        } else {
-            return rest_milestones + max_milestone;
-        }
+        long long res = total - mx;
+        return min(total, res * 2 + 1);  // min(all milestone doable, mx milestone is too much, can only do rest * 2 + 1)
     }
 };
