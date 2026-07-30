@@ -1,19 +1,18 @@
-class MyCalendarTwo {
+class MyCalendarTwo { 
     map<int, int> timeline;
 public:
     MyCalendarTwo() {
-        
     }
     
     bool book(int startTime, int endTime) {
         timeline[startTime]++;
         timeline[endTime]--;
 
-        int overlaps = 0;
-        for(const auto& points : timeline) {
-            overlaps += points.second;
+        int events = 0;
+        for(const auto& time : timeline) {
+            events += time.second;
 
-            if(overlaps > 2) {
+            if(events > 2) {
                 if(--timeline[startTime] == 0) timeline.erase(startTime);
                 if(++timeline[endTime] == 0) timeline.erase(endTime);
                 return false;
