@@ -187,6 +187,7 @@ All my LeetCode Submission are available Here.
 | [0094-binary-tree-inorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0143-reorder-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0143-reorder-list/) | Medium |
+| [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
 | [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
@@ -356,6 +357,7 @@ All my LeetCode Submission are available Here.
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -401,6 +403,7 @@ All my LeetCode Submission are available Here.
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -436,6 +439,7 @@ All my LeetCode Submission are available Here.
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
+| [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
