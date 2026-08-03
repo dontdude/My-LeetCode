@@ -10,24 +10,22 @@
  * };
  */
 class Solution {
-    TreeNode* constructBST(int mn, int mx, int& i, vector<int>& preorder) {
-        if(i >= preorder.size()) return nullptr;
+    TreeNode* dfs(int p, int e, vector<int>& pre) {
+        if(p > e)  return nullptr;
 
-        int val = preorder[i];
-        if(val < mn || val > mx)  return nullptr;
-
+        int val = pre[p++];
         TreeNode* node = new TreeNode(val);
-        i++;
+        
+        int bp = p;
+        while(bp <= e && pre[bp] < val) bp++;
 
-        node->left = constructBST(mn, val, i, preorder);
-        node->right = constructBST(val, mx, i, preorder);
+        node->left = dfs(p, bp - 1, pre);
+        node->right = dfs(bp, e, pre);
 
         return node;
     }
 public:
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        if(preorder.size() < 1)  return nullptr;
-        int start = 0;
-        return constructBST(INT_MIN, INT_MAX, start, preorder);
+        return dfs(0, preorder.size() - 1, preorder);
     }
 };
