@@ -10,22 +10,20 @@
  * };
  */
 class Solution {
-    int result = INT_MIN;
-    int findPath(TreeNode* node) {
-        if(node == nullptr) return 0;
+    int res;
+    int dfs(TreeNode* node) {
+        if(node == nullptr)  return 0;
 
-        int leftPath = findPath(node->left);
-        int rightPath = findPath(node->right);
+        int left = dfs(node->left);
+        int right = dfs(node->right);
 
-        result = max(result, node->val + max(leftPath, 0) + max(rightPath, 0));
-
-        int currPath = max(node->val + max(leftPath, rightPath), node->val);
-        result = max(result, currPath);
-
-        return currPath;
+        res = max(res, left + right + node->val);
+        return max(0, max(left, right) + node->val);
     }
 public:
     int maxPathSum(TreeNode* root) {
-        return max(result, findPath(root));
+        res = INT_MIN;
+        dfs(root);
+        return res;
     }
 };
