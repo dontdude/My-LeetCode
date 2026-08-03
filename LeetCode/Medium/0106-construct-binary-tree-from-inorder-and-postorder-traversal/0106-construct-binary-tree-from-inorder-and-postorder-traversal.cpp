@@ -10,31 +10,28 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* helper(int& posti, int ins, int ine, vector<int>& in, vector<int>& post, unordered_map<int, int>& inorderMap) {
-        if(ins > ine) return NULL;
+    TreeNode* constructTree(int& p, vector<int>& pst, int is, int ie, vector<int>& in, unordered_map<int, int>& hashMap) {
+        if(is > ie)  return nullptr;
 
-        int val = post[posti];
-        posti--;
+        TreeNode* node = new TreeNode(pst[p]);
+        int bp = hashMap[pst[p]];
+        p--;
 
-        TreeNode* node = new TreeNode(val);
-
-        int ini = inorderMap[val];
-
-        node->right = helper(posti, ini + 1, ine, in, post, inorderMap);
-        node->left  = helper(posti, ins, ini - 1, in, post, inorderMap);
+        node->right = constructTree(p, pst, bp + 1, ie, in, hashMap);
+        node->left = constructTree(p, pst, is, bp - 1, in, hashMap);
 
         return node;
     }
-
+public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int insz = inorder.size() - 1, postIndex = postorder.size() - 1;
-        unordered_map<int, int> inorderMap;
+        int n = postorder.size();
 
-        for(int i = 0; i <= insz; i++) {
-            inorderMap[inorder[i]] = i;
+        unordered_map<int, int> hashMap;
+        for(int i = 0; i < n; i++) {
+            hashMap[inorder[i]] = i;
         }
 
-        return helper(postIndex, 0, insz, inorder, postorder, inorderMap);
+        int p = n - 1;
+        return constructTree(p, postorder, 0, n - 1, inorder, hashMap);
     }
 };
