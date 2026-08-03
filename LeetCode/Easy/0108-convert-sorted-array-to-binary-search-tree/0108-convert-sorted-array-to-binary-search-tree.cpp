@@ -10,19 +10,19 @@
  * };
  */
 class Solution {
-    TreeNode* constructBST(int l, int r, vector<int>& nums) {
-        if(l > r)  return nullptr;
+    TreeNode* dfs(int l, int r, vector<int>& nums) {
+        if(l > r) return nullptr;
+        
+        int m = l + (r - l) / 2;
+        TreeNode* node = new TreeNode(nums[m]);
 
-        int mid = l + (r - l) / 2;
-
-        TreeNode* node = new TreeNode(nums[mid]);
-        node->left = constructBST(l, mid - 1, nums);
-        node->right = constructBST(mid + 1, r, nums);
+        node->left = dfs(l, m - 1, nums);
+        node->right = dfs(m + 1, r, nums);
 
         return node;
     }
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-        return constructBST(0, nums.size() - 1, nums);
+        return dfs(0, nums.size() - 1, nums);
     }
 };
