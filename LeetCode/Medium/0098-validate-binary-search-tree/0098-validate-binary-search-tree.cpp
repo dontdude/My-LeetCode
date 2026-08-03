@@ -10,14 +10,15 @@
  * };
  */
 class Solution {
-    bool dfs(TreeNode* node, long long mx, long long mn) {
+    bool dfs(long long mn, long long mx, TreeNode* node) {
         if(node == nullptr) return true;
-        if(node->val <= mn || node->val >= mx)  return false;
 
-        return dfs(node->left, node->val, mn) && dfs(node->right, mx, node->val);
-    }
+        if(mn >= node->val || node->val >= mx)  return false;
+
+        return dfs(mn, node->val, node->left) && dfs(node->val, mx, node->right);
+    } 
 public:
     bool isValidBST(TreeNode* root) {
-        return dfs(root, LLONG_MAX, LLONG_MIN);
+        return dfs(LLONG_MIN, LLONG_MAX, root);
     }
 };
