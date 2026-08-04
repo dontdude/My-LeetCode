@@ -179,6 +179,7 @@ All my LeetCode Submission are available Here.
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2327-number-of-people-aware-of-a-secret/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 ## Stack
@@ -378,6 +379,7 @@ All my LeetCode Submission are available Here.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 ## Binary Search Tree
@@ -401,6 +403,7 @@ All my LeetCode Submission are available Here.
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0981-time-based-key-value-store/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -430,6 +433,7 @@ All my LeetCode Submission are available Here.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -471,6 +475,7 @@ All my LeetCode Submission are available Here.
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
@@ -706,4 +711,8 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
+## DP on Trees
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 <!---LeetCode Topics End-->
