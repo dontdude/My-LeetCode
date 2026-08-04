@@ -193,6 +193,7 @@ All my LeetCode Submission are available Here.
 | [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0173-binary-search-tree-iterator/) | Medium |
 | [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [0901-online-stock-span](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0901-online-stock-span/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
@@ -227,6 +228,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0173-binary-search-tree-iterator/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
@@ -361,6 +363,7 @@ All my LeetCode Submission are available Here.
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0173-binary-search-tree-iterator/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
@@ -384,6 +387,7 @@ All my LeetCode Submission are available Here.
 | [0098-validate-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0098-validate-binary-search-tree/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0268-missing-number](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
@@ -411,6 +415,7 @@ All my LeetCode Submission are available Here.
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0145-binary-tree-postorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0173-binary-search-tree-iterator/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0230-kth-smallest-element-in-a-bst/) | Medium |
@@ -665,6 +670,7 @@ All my LeetCode Submission are available Here.
 ## Iterator
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0173-binary-search-tree-iterator/) | Medium |
 | [0284-peeking-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0284-peeking-iterator/) | Medium |
 | [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [1286-iterator-for-combination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1286-iterator-for-combination/) | Medium |
