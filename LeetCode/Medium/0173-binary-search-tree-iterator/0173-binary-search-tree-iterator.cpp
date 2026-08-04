@@ -10,31 +10,31 @@
  * };
  */
 class BSTIterator {
-    stack<TreeNode*> myStack;
-
-    void pushSmallerNodesFromCurrentSubtree(TreeNode* node) {
-        while(node) {
-            myStack.push(node);
-            node = node->left;
-        }
-    }
-
+    TreeNode* curr;
+    stack<TreeNode*> st;
 public:
     BSTIterator(TreeNode* root) {
-        pushSmallerNodesFromCurrentSubtree(root);
+        curr = root;
     }
     
     int next() {
-        TreeNode* curr = myStack.top();
-        myStack.pop();
+        if(!hasNext()) return -1;
 
-        pushSmallerNodesFromCurrentSubtree(curr->right);
+        while(curr) {
+            st.push(curr);
+            curr = curr->left;
+        }
 
-        return curr->val;
+        TreeNode* node = st.top();
+        st.pop();
+        
+        if(node->right) curr = node->right;
+
+        return node->val;
     }
     
     bool hasNext() {
-        return myStack.empty() == false;
+        return curr || !st.empty();
     }
 };
 
