@@ -76,6 +76,7 @@ All my LeetCode Submission are available Here.
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1707-maximum-xor-with-an-element-from-array/) | Hard |
 | [1953-maximum-number-of-weeks-for-which-you-can-work](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1953-maximum-number-of-weeks-for-which-you-can-work/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
+| [2304-minimum-path-cost-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2304-minimum-path-cost-in-a-grid/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [2365-task-scheduler-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2365-task-scheduler-ii/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/2444-count-subarrays-with-fixed-bounds/) | Hard |
@@ -183,6 +184,7 @@ All my LeetCode Submission are available Here.
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [2304-minimum-path-cost-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2304-minimum-path-cost-in-a-grid/) | Medium |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2327-number-of-people-aware-of-a-secret/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 ## Stack
@@ -558,6 +560,7 @@ All my LeetCode Submission are available Here.
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
+| [2304-minimum-path-cost-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2304-minimum-path-cost-in-a-grid/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
