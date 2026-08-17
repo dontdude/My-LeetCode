@@ -1,6 +1,6 @@
 class Solution {
     int n;
-    void dfs(int stone, int row, int col, vector<char>& vis, vector<vector<pair<int, int>>>& rs, vector<vector<pair<int, int>>>& cs) {
+    void dfs(int stone, int row, int col, vector<char>& vis, unordered_map<int, vector<pair<int, int>>>& rs, unordered_map<int, vector<pair<int, int>>>& cs) {
         vis[stone] = 1;
 
         for(const auto& cells : rs[row]) {
@@ -24,8 +24,8 @@ public:
         n = stones.size();
         vector<char> vis(n, 0);
 
-        vector<vector<pair<int, int>>> rowStones(1e4 + 1);
-        vector<vector<pair<int, int>>> colStones(1e4 + 1);
+        unordered_map<int, vector<pair<int, int>>> rowStones;
+        unordered_map<int, vector<pair<int, int>>> colStones;
 
         for(int i = 0; i < n; i++) {
             rowStones[stones[i][0]].push_back({i, stones[i][1]});
