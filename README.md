@@ -128,6 +128,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0130-surrounded-regions/) | Medium |
+| [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
@@ -485,6 +486,7 @@ All my LeetCode Submission are available Here.
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0449-serialize-and-deserialize-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0449-serialize-and-deserialize-bst/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0543-diameter-of-binary-tree/) | Easy |
+| [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0572-subtree-of-another-tree/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
@@ -513,6 +515,7 @@ All my LeetCode Submission are available Here.
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0417-pacific-atlantic-water-flow/) | Medium |
 | [0449-serialize-and-deserialize-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0449-serialize-and-deserialize-bst/) | Medium |
+| [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0919-complete-binary-tree-inserter](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0919-complete-binary-tree-inserter/) | Medium |
@@ -527,6 +530,7 @@ All my LeetCode Submission are available Here.
 | [0133-clone-graph](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
