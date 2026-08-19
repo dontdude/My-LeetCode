@@ -493,6 +493,7 @@ All my LeetCode Submission are available Here.
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1600-throne-inheritance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1600-throne-inheritance/) | Medium |
@@ -533,6 +534,7 @@ All my LeetCode Submission are available Here.
 | [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
@@ -754,4 +756,12 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+## Biconnected Component
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
+## Bridge (Graph)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 <!---LeetCode Topics End-->
