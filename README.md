@@ -491,6 +491,7 @@ All my LeetCode Submission are available Here.
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
@@ -519,6 +520,7 @@ All my LeetCode Submission are available Here.
 | [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 | [0919-complete-binary-tree-inserter](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0919-complete-binary-tree-inserter/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1261-find-elements-in-a-contaminated-binary-tree/) | Medium |
@@ -533,6 +535,7 @@ All my LeetCode Submission are available Here.
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0547-number-of-provinces](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
@@ -618,6 +621,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -764,4 +768,12 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1192-critical-connections-in-a-network/) | Hard |
+## Kosaraju's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
+## Tarjan's SCC Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
 <!---LeetCode Topics End-->
