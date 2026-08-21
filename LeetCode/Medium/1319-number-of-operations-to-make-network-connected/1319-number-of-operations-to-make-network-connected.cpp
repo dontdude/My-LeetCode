@@ -1,32 +1,46 @@
 class Solution {
-    void dfs(int u, vector<char>& vis, vector<vector<int>>& graph) {
-        vis[u] = 1;
+   class DSU {
+        int n;
+        vector<int> parent;
+        vector<int> size;
+    public: 
+        DSU(int n) {
+            this->n = n;
+            this->parent.resize(n, -1);
+            this->size.resize(n, 0);
+        } 
 
-        for(int v : graph[u]) {
-            if(vis[v] == 0) {
-                dfs(v, vis, graph);
-            } 
+        int find(int u) {
+            if(parent[u] == -1) return u;
+            return parent[u] = find(parent[u]);
         }
-    }
+
+        bool unite(int u, int v) {
+            int ultu = find(u);
+            int ultv = find(v);
+
+            if(ultu == ultv)  return false;
+
+            if(size[ultu] > size[ultv]) {
+                parent[ultv] = ultu;
+                size[ultu] += size[ultv];
+            } else {
+                parent[ultu] = ultv;
+                size[ultv] += size[ultu];
+            }
+
+            return true;
+        }
+   };
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
         if(connections.size() < n - 1) return -1;
-        vector<vector<int>> graph(n, vector<int>());
+        
+        DSU dsu(n);
+        int connectedComponents = n;
 
         for(const auto& connection : connections) {
-            graph[connection[0]].push_back(connection[1]);
-            graph[connection[1]].push_back(connection[0]);
-        }
-
-        vector<char> vis(n, 0);
-        
-        int connectedComponents = 0;
-
-        for(int i = 0; i < n; i++) {
-            if(vis[i] == 0) {
-                connectedComponents++;
-                dfs(i, vis, graph);
-            }
+            if(dsu.unite(connection[0], connection[1]))  connectedComponents--;
         }
 
         return connectedComponents - 1;
