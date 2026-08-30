@@ -188,6 +188,7 @@ All my LeetCode Submission are available Here.
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2304-minimum-path-cost-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2304-minimum-path-cost-in-a-grid/) | Medium |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2327-number-of-people-aware-of-a-secret/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -545,6 +546,7 @@ All my LeetCode Submission are available Here.
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2467-most-profitable-path-in-a-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2467-most-profitable-path-in-a-tree/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 ## Math
@@ -626,6 +628,7 @@ All my LeetCode Submission are available Here.
 | [0207-course-schedule](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0207-course-schedule/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -736,6 +739,7 @@ All my LeetCode Submission are available Here.
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -780,4 +784,8 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0802-find-eventual-safe-states/) | Medium |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 <!---LeetCode Topics End-->
