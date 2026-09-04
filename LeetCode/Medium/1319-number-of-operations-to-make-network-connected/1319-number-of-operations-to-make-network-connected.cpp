@@ -1,46 +1,44 @@
 class Solution {
-   class DSU {
+    class DSU {
         int n;
-        vector<int> parent;
-        vector<int> size;
-    public: 
-        DSU(int n) {
-            this->n = n;
-            this->parent.resize(n, -1);
-            this->size.resize(n, 0);
-        } 
-
+        vector<int> Parent;
+        vector<int> Size;
+    
+    public:
+        DSU(int _n) {
+            n = _n;
+            Parent.resize(n, -1);
+            Size.resize(n, 0);
+        }
+    
         int find(int u) {
-            if(parent[u] == -1) return u;
-            return parent[u] = find(parent[u]);
+            if(Parent[u] == -1)  return u;
+            return Parent[u] = find(Parent[u]);
         }
 
-        bool unite(int u, int v) {
+        bool Union(int u, int v) {
             int ultu = find(u);
             int ultv = find(v);
 
-            if(ultu == ultv)  return false;
+            if(ultu == ultv) return false;
 
-            if(size[ultu] > size[ultv]) {
-                parent[ultv] = ultu;
-                size[ultu] += size[ultv];
-            } else {
-                parent[ultu] = ultv;
-                size[ultv] += size[ultu];
-            }
+            if(Size[ultu] > Size[ultv]) swap(ultu, ultv);
+
+            Parent[ultv] = ultu;
+            Size[ultu] += Size[ultv];
 
             return true;
         }
-   };
+    };
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
-        if(connections.size() < n - 1) return -1;
-        
-        DSU dsu(n);
+        if(n - 1 > connections.size()) return -1;
+
         int connectedComponents = n;
+        DSU dsu(n);
 
         for(const auto& connection : connections) {
-            if(dsu.unite(connection[0], connection[1]))  connectedComponents--;
+            if(dsu.Union(connection[0], connection[1]))  connectedComponents--;
         }
 
         return connectedComponents - 1;
