@@ -56,6 +56,7 @@ All my LeetCode Submission are available Here.
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
+| [0494-target-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0621-task-scheduler](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0621-task-scheduler/) | Medium |
 | [0622-design-circular-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0622-design-circular-queue/) | Medium |
@@ -184,6 +185,7 @@ All my LeetCode Submission are available Here.
 | [0338-counting-bits](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0410-split-array-largest-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0410-split-array-largest-sum/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0435-non-overlapping-intervals/) | Medium |
+| [0494-target-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0647-palindromic-substrings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0647-palindromic-substrings/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -657,6 +659,7 @@ All my LeetCode Submission are available Here.
 | [0046-permutations](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
 | [0212-word-search-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
+| [0494-target-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [1286-iterator-for-combination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1286-iterator-for-combination/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -795,4 +798,12 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+## Knapsack Problem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0494-target-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
+## 0-1 Knapsack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0494-target-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 <!---LeetCode Topics End-->
