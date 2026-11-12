@@ -66,6 +66,7 @@ All my LeetCode Submission are available Here.
 | [0729-my-calendar-i](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0729-my-calendar-i/) | Medium |
 | [0731-my-calendar-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
+| [0740-delete-and-earn](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0740-delete-and-earn/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [0900-rle-iterator](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0900-rle-iterator/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
@@ -112,6 +113,7 @@ All my LeetCode Submission are available Here.
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0676-implement-magic-dictionary](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0676-implement-magic-dictionary/) | Medium |
 | [0677-map-sum-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0677-map-sum-pairs/) | Medium |
+| [0740-delete-and-earn](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0740-delete-and-earn/) | Medium |
 | [0767-reorganize-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0767-reorganize-string/) | Medium |
 | [0846-hand-of-straights](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0846-hand-of-straights/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0947-most-stones-removed-with-same-row-or-column/) | Medium |
@@ -191,6 +193,7 @@ All my LeetCode Submission are available Here.
 | [0494-target-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0518-coin-change-ii/) | Medium |
 | [0647-palindromic-substrings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0647-palindromic-substrings/) | Medium |
+| [0740-delete-and-earn](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0740-delete-and-earn/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
