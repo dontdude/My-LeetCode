@@ -198,6 +198,7 @@ All my LeetCode Submission are available Here.
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1359-count-all-valid-pickup-and-delivery-options](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1359-count-all-valid-pickup-and-delivery-options/) | Hard |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1641-count-sorted-vowel-strings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1641-count-sorted-vowel-strings/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
@@ -578,6 +579,7 @@ All my LeetCode Submission are available Here.
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
+| [1359-count-all-valid-pickup-and-delivery-options](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1359-count-all-valid-pickup-and-delivery-options/) | Hard |
 | [1641-count-sorted-vowel-strings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1641-count-sorted-vowel-strings/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
@@ -710,6 +712,7 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [1359-count-all-valid-pickup-and-delivery-options](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1359-count-all-valid-pickup-and-delivery-options/) | Hard |
 | [1641-count-sorted-vowel-strings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1641-count-sorted-vowel-strings/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
