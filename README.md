@@ -75,6 +75,7 @@ All my LeetCode Submission are available Here.
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1357-apply-discount-every-n-orders](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1357-apply-discount-every-n-orders/) | Medium |
 | [1381-design-a-stack-with-increment-operation](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1381-design-a-stack-with-increment-operation/) | Medium |
+| [1406-stone-game-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 | [1476-subrectangle-queries](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1476-subrectangle-queries/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1584-min-cost-to-connect-all-points/) | Medium |
 | [1670-design-front-middle-back-queue](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1670-design-front-middle-back-queue/) | Medium |
@@ -202,6 +203,7 @@ All my LeetCode Submission are available Here.
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1359-count-all-valid-pickup-and-delivery-options](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1359-count-all-valid-pickup-and-delivery-options/) | Hard |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [1406-stone-game-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 | [1641-count-sorted-vowel-strings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1641-count-sorted-vowel-strings/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2304-minimum-path-cost-in-a-grid](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2304-minimum-path-cost-in-a-grid/) | Medium |
@@ -584,6 +586,7 @@ All my LeetCode Submission are available Here.
 | [0887-super-egg-drop](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0887-super-egg-drop/) | Hard |
 | [1352-product-of-the-last-k-numbers](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1352-product-of-the-last-k-numbers/) | Medium |
 | [1359-count-all-valid-pickup-and-delivery-options](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1359-count-all-valid-pickup-and-delivery-options/) | Hard |
+| [1406-stone-game-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 | [1641-count-sorted-vowel-strings](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/1641-count-sorted-vowel-strings/) | Medium |
 | [2364-count-number-of-bad-pairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/2364-count-number-of-bad-pairs/) | Medium |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
@@ -829,4 +832,16 @@ All my LeetCode Submission are available Here.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1406-stone-game-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1406-stone-game-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
+## Zero-Sum Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1406-stone-game-iii](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 <!---LeetCode Topics End-->
