@@ -174,6 +174,7 @@ All my LeetCode Submission are available Here.
 | [0062-unique-paths](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0064-minimum-path-sum](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0070-climbing-stairs](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
+| [0072-edit-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
 | [0118-pascals-triangle](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -335,6 +336,7 @@ All my LeetCode Submission are available Here.
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0038-count-and-say](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0038-count-and-say/) | Medium |
 | [0049-group-anagrams](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
+| [0072-edit-distance](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
 | [0076-minimum-window-substring](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Hard/0076-minimum-window-substring/) | Hard |
 | [0079-word-search](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0079-word-search/) | Medium |
 | [0091-decode-ways](https://github.com/dontdude/My-LeetCode/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
